@@ -16,7 +16,6 @@ class HomeViewController: UIViewController {
     
     init() {
         viewModel = HomeViewModel()
-//        viewModel.stateDidChange = stateDidChange
         super.init(nibName: nil, bundle: Bundle.main)
     }
     
@@ -27,11 +26,12 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        viewModel.stateDidChange = stateDidChange
         viewModel.fetch()
     }
     
     private func stateDidChange(_ state: State) {
-        
+        tableView.reloadData()
     }
 
 }

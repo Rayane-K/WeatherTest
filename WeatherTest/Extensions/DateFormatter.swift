@@ -12,7 +12,7 @@ extension DateFormatter {
     
     static var weatherFormatter: DateFormatter {
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd HH:mm"
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
         return formatter
     }
 }
