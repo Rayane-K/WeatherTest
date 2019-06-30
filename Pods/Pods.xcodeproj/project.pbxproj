@@ -1,0 +1,1595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02239E8E7F7C5CC1F24A3259BED48CBD /* lang_ko.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FF3A3EB6CCD7D503D884FA0E08865 /* lang_ko.swift */; };
+		026FDB603C0A720EEE09CFFE273456F1 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F8DD91F33EBFDF0F52ED7D6B9EF64 /* DateRepresentable.swift */; };
+		07156419E7F0023CF6882BE85F533719 /* lang_kl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E94E4653A4016A891A7A00144226DB4 /* lang_kl.swift */; };
+		07B2ED35D6FAB10A56A247BC152A4FD7 /* lang_se.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82A096D9DC3F88DE83767826984572 /* lang_se.swift */; };
+		087C14F286EF1FCD62F5B8D65A53500D /* lang_ug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55167D677C8D6A3BC9B0C84F37FB9D5 /* lang_ug.swift */; };
+		092515C5AA6787E6122430CA6EB9AC15 /* lang_kea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE89BD70E661AAAECA31552B817D383 /* lang_kea.swift */; };
+		099E26319A7A3485906F1CD41BDAB8C5 /* lang_cs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F23E4545936B29016B14BE84DEB86 /* lang_cs.swift */; };
+		0A5AF12F518DD94ED4A691E109B12842 /* lang_fy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFFABAFF1390915D125C40B21A1370 /* lang_fy.swift */; };
+		0ACB42F0DFC5BAE7E45B6F8AC47D9270 /* lang_uk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5150978D1C7DCA99B51050734A97D0E /* lang_uk.swift */; };
+		0B02549CDCE1468C19ADE1B0F7553B18 /* lang_zh_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B1AEE3FC2671CFA46C1D7A3F83BDA /* lang_zh_Hant.swift */; };
+		0B84A5413D511DD2DE62F53D854ABA50 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B37D18615102A1374D00581F87B1C /* Int+DateComponents.swift */; };
+		0DCFBCC3553DDACA3B3C8F74B3939285 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72556B26CFBA516A8EBBFA70CB19ADA6 /* Zones.swift */; };
+		1005AD40F9E4CF12722591CA9091B4F2 /* lang_fo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28678B8D0C42D8D21337DEC94F6560CE /* lang_fo.swift */; };
+		10F4B17219C0A585D11F4042774755F4 /* lang_tk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DB898152473EB8E81CA1F1C10F6 /* lang_tk.swift */; };
+		185AAAB4877C0818035E4BB5BED0ACD0 /* lang_he.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EA47004A2B3586FB7EAC02D28B6F6 /* lang_he.swift */; };
+		1A66C8E1AC052EA8123BE0ED28CD0415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1B3E9E13ADF57BC32E0F89FD0B48C39F /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640B45193A09F54343A9A191120C787C /* DateComponents+Extras.swift */; };
+		1F4891E14F5B848C67FB64D89422322F /* lang_ja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D147566C2D25FB688196FD18CA22E07 /* lang_ja.swift */; };
+		21ADC130C49223F6855873AB1D63DA51 /* lang_my.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D98A26F802FEB76FEAAA82A04FB5B /* lang_my.swift */; };
+		2321DCF519CEE644F6FD7E44ACBD5A32 /* lang_nb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9BFBE4B7F117C1A66E3ADD1DFB73B7 /* lang_nb.swift */; };
+		23B73BB407EB8B08854A01D702F3599B /* lang_sl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C2184E66152809D429E2AD50956C17 /* lang_sl.swift */; };
+		23FE07173D4FE9C3E79FB4014CF8F252 /* lang_bg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F63C607DBA5917BACB7BCC96A0B89 /* lang_bg.swift */; };
+		244B414AE2B40A9D19A0DF090549D1A8 /* lang_is.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23FF4DFEE155229A72D108E5B223B12 /* lang_is.swift */; };
+		2558C8D20F38CBB0E5020E0C82E51FBA /* lang_ta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349EBEE47FD4A7F6B6D5CF8AF0005A6 /* lang_ta.swift */; };
+		2753ECC6CE50A6AF88A62E05F9FF03FE /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03D1A31122A7F901C56E74EF1C7B0B /* Date+Compare.swift */; };
+		29190972792B63358F54C964A8D6E398 /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E587574821E5A979E724A5B82AE20DC1 /* ISOParser.swift */; };
+		2A35789157DE6CF9C8EA5D76184ED51F /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99964273CE55770A64436BD2AFB76716 /* AssociatedValues.swift */; };
+		2A5C056798A3B87EB76E8DDFE39D5B34 /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A4CAF09EB99BD0777A7E7CF27B789 /* Date+Math.swift */; };
+		2CC0925922EEC1ECA18A3998B14510F5 /* lang_uz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69916E743E71198FF3321AEBCBF58085 /* lang_uz.swift */; };
+		2D24DE448F03639CE66D9655CCBD3033 /* Pods-WeatherTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F47165BF0F2F4AE630F3E57C919133 /* Pods-WeatherTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D2D6E2DDB97996685B97F266357BFA1 /* lang_pa.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF05A1583DB5886C32E89F5D2FD630D /* lang_pa.swift */; };
+		2EC9899D987321B6CDBC1FA64E52975C /* lang_lv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902F4559B871AB5477FA9725CCFFF149 /* lang_lv.swift */; };
+		30B128C5467DFCE52C23752A0A3EE9A5 /* lang_zh_Hans_SG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CE089F1569F86A786FF7E5C0FC13CE /* lang_zh_Hans_SG.swift */; };
+		32588AA489E730879216950C534528B2 /* lang_kn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6FCECCFCDD634325DF629D8D755E4 /* lang_kn.swift */; };
+		326902F0F3B0B74CB0AB9476EC8758A3 /* lang_mt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08803C843815A62A4B5FF47DDFAC10C9 /* lang_mt.swift */; };
+		32BA4D82FCDFC965CB229EE453D0E479 /* lang_mk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0A786655BFF692607A90D73D28BEB /* lang_mk.swift */; };
+		3400ACE0307C3C2FBFC92313375F4325 /* lang_id.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A3292613A98CF1E23E4FD42BF9AF /* lang_id.swift */; };
+		34462100750C82FFAA6AB82512A9B808 /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CEE70797D027D2C93059E106AB6F9F /* DateInRegion+Create.swift */; };
+		34578CA48AB1EC952BD2B313BA575557 /* lang_gu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72423ED454523B1AC656240012E296B5 /* lang_gu.swift */; };
+		3556E4D57EF1D87F28B7DDE26F34541F /* lang_or.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9124F4DF0C4378A1CFCE026B67497 /* lang_or.swift */; };
+		35FC5BB810183B9B49A4DB9B619F3048 /* lang_lb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87644F4D47FD7ED5E7110C434B9BEB /* lang_lb.swift */; };
+		36DD0CB23588872E91774D1BA5C50E21 /* lang_fur.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB6E2ADCABC9BDDF83ED504916EFB8 /* lang_fur.swift */; };
+		36E769A313BF723F3F94C3F43069E61B /* lang_fr_CA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9255F2EA2C48B96805DD7F17E10B2418 /* lang_fr_CA.swift */; };
+		370A43E18E3985C4C33229C3FF27228B /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A0871713343181E1638A57806049F /* String+Parser.swift */; };
+		37BD423E588F68B5ED40CAB854AEA3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3CCB41C479DA23A697CA85913C152E42 /* Pods-WeatherTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8FE84E52A59D9EFC22FF2946FB202D /* Pods-WeatherTest-dummy.m */; };
+		3E4C15FFF71C2629163EB257E6517425 /* Pods-WeatherTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D58A68CE37D9A040CCEE0732C8D0D3CE /* Pods-WeatherTestUITests-dummy.m */; };
+		3EC8B2F1211DD8DF4FD320DB28C7BA76 /* lang_hi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6225E98C70170C1BFC3AD62D818348 /* lang_hi.swift */; };
+		3ED1467B5E1B325C6171D6F1CB6C61A9 /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5EEB80081BDE086B2904F8A63FE0 /* Date+Create.swift */; };
+		3FC92C89599AB6B3D085591FEE669924 /* lang_et.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3801283999E68AC1454206D1960798C2 /* lang_et.swift */; };
+		40CC7AA97411A78890E28DD399FAD846 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6289ABC657DAA4448831F1CD38742914 /* Date.swift */; };
+		413C8EFC0263184F7E93DDB254A4FFAD /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4662691CFCA35361EE2C7AE4E6B0808 /* TimePeriodGroup.swift */; };
+		424E086EE5ABF3B877A457E1C1946060 /* lang_es_MX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74BADBBCDA9E6E6E3C82E23A63025B8 /* lang_es_MX.swift */; };
+		43534EB2867025604D263F1CF0E42AF2 /* lang_ga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60115A5D5CB5658C00189959FB22D408 /* lang_ga.swift */; };
+		435B90846D43B51729C8C842ED296DA4 /* lang_it.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF707493E0103FE4DF458C8FCA3ED4 /* lang_it.swift */; };
+		438ED2D89EED5F3DADB61B7E3532416A /* Pods-WeatherTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD31442C39BBE72E4C05860755DC2E3 /* Pods-WeatherTestTests-dummy.m */; };
+		4564C8550AF2615C6075F00B8ECA6AF8 /* lang_zh_Hans_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3180ADA36A10EDCBF3D1B87C76ABA5 /* lang_zh_Hans_MO.swift */; };
+		4651D9232F576A4F030DB7D684C9CA4B /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF520AE064EF0DCD4AAECEE6A2EEA38 /* RelativeFormatter.swift */; };
+		47656CC5EB02873D2F8423F3C19EA455 /* lang_ar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE135E1C3FAD5BDA78375FEFDB34B8D /* lang_ar.swift */; };
+		48652498AA2592975F35CC563DB75BEB /* lang_be.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DB64026937F5B19A41CF9EFD65B080 /* lang_be.swift */; };
+		48C3A15D9F3873D915ACBF60497C4B73 /* lang_uz_Cyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE4E4EE036349660A182C040B9719D /* lang_uz_Cyrl.swift */; };
+		496DF2D3F301725AA0187F525299531E /* lang_mn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206EC327DBA9E8D07941B15D3F0E6CF /* lang_mn.swift */; };
+		4C282CD194A0BEB906AE200FEA87A1DF /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09288B42B02B1D96468960AB25D18F /* RelativeFormatter+Style.swift */; };
+		4DC3E5EFA96A41E5E2C6DE3B4A855786 /* lang_vi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AEB17F65F95FBEF33913CB45370DED /* lang_vi.swift */; };
+		4ED2E9280F35857F23C4D9D8CFDF3194 /* lang_zh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B82E48A8FCF60DD0626C7F66A38C1 /* lang_zh.swift */; };
+		5012B7144BEFA00A41513C8B7A685468 /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CD2EDE01D6ACCABD41452DADC4096B /* DateInRegion+Compare.swift */; };
+		55AC98F7BE6A8E48679E91448F899AE9 /* lang_hy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB48875017D44E5D6E26E403AA8852A /* lang_hy.swift */; };
+		5B88E47D0E53E303C083687FA7BBC5C8 /* lang_as.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2169F3F272237613ADF309B69972A2 /* lang_as.swift */; };
+		616E6723C64412BD6B0D8D9E272D03F8 /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A1FA9B1CC963EBE0864E7A942046D /* DotNetParserFormatter.swift */; };
+		617B9C775F04FF7E099A88372607094E /* lang_si.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B72B0FC997B00D03E7A6D008AFB1D33 /* lang_si.swift */; };
+		61DDE50BB9B3E9DB08293AF97A3D4117 /* lang_ar_AE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5927842D0B9BE47E1FAAA432FEE01A96 /* lang_ar_AE.swift */; };
+		6277655DDE21AC2E551DAEF469D4D359 /* lang_br.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45020C9581E97C838284D66A750E81BD /* lang_br.swift */; };
+		65EB4D4D2465A234CE624FC1249CA3F9 /* lang_sr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136726F5DCF131DB73F5E9E9E75591F8 /* lang_sr.swift */; };
+		66FACFA2CB4911E7873B78222C8D52A7 /* lang_ksh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299223A355B8C150572D9BC8F813B0BD /* lang_ksh.swift */; };
+		6946EE92CC89625EE62BD7247502CE7A /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82985E363EDB8D2839656B020C432DA /* Date+Components.swift */; };
+		6951B733787EAEFFEBFB1430C94269CF /* lang_de.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16DAB2CE7A8DEC5F471DA29650BBF0 /* lang_de.swift */; };
+		72682C544763209D0DE35C578671F4C5 /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449FF5C4D85B3DB60D1BAA4960BF6F0C /* TimePeriodProtocol.swift */; };
+		72B37BF2A7FDCE350A0DE46653516BF9 /* lang_es_US.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2FCDB7E2D49427969A5E5BAA79A13 /* lang_es_US.swift */; };
+		740EA39853B918E23AD23B48CCA47D60 /* lang_dsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53DFFBC23CC22E3A1E9A99107FEA7B /* lang_dsb.swift */; };
+		7641F123EE56173B31DEF5C1978B16E7 /* lang_fr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E1D394F63A6F9ED0566032843A551 /* lang_fr.swift */; };
+		77450D1AD0F0FED9293C3106B7E83E98 /* lang_ti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA1B5B0F33C50E98E905512DDE9433 /* lang_ti.swift */; };
+		7755A8AC8069D5E60ECD30FA36CB1178 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C948B4B28E06E25A296805ADB3DECBA5 /* Calendars.swift */; };
+		7A8AD8AAEEBA55D543730FB2FDB0FF7A /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB7FD7972956FBC24D5753EBC23730 /* DateInRegion+Components.swift */; };
+		7CBCB138E23AB1A681E2E7B2A86E0BB0 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D882B53C2A6D655C769209CA9DD37BB /* TimePeriodChain.swift */; };
+		7E1D4D865553057858A195204C503202 /* lang_bsCyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E03F8AA4D174918C283994B69AB3508 /* lang_bsCyrl.swift */; };
+		8177CB232221D0019240596C41096444 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2E20C5E7371759004A8DC94A6D5DF /* Commons.swift */; };
+		8297CE74E3B23B32244B2F78FB2F1C75 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6398DDC6E25B7001085C0E33F28CF /* Region.swift */; };
+		856B22CFB2268E35DBA52E26E1D9B05E /* lang_fil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDC28B59AC2C3C7AA27F9AF2F3DD4E /* lang_fil.swift */; };
+		86CC17C37B0BA785CA926CA4DE112206 /* lang_wae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCDE2CDE39779B6C8578F18812F15E /* lang_wae.swift */; };
+		885129ECB8CDBE868FDDFECD264D21EC /* lang_zh_Hant_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C73F7B296F7F031973EF6C23F5B9B /* lang_zh_Hant_MO.swift */; };
+		88A4A0D9782A86E9B076E6FB81E51B05 /* lang_dz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC67A6596F5854E35BD85CA8F83EFF2 /* lang_dz.swift */; };
+		88DCA092AA3AD01D7187E26F4B5F6909 /* lang_hr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8436C1FE13DC71303E7BD2BE531608 /* lang_hr.swift */; };
+		8F35CD0F9F79974890FA149F47FF23DA /* lang_yue_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39AB7B8BF867C65E43DDB3033B05F70 /* lang_yue_Hant.swift */; };
+		8F48648FD3E041A6E5E9A568170F3F32 /* lang_ne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952D3F18B89E1AFB0B44EC74B77B728 /* lang_ne.swift */; };
+		8FB7027EBE80E8BF2E5772ADB8114580 /* lang_ca.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E093D5A9CBB9BCEDD5DE04B74EA11C /* lang_ca.swift */; };
+		8FBA209FF27162B4C38DC7D3A11DD6CA /* lang_lkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89FA06446FAF21F55F0BC3449C3BA9 /* lang_lkt.swift */; };
+		8FE0C854F3A3B35822B4C35F55E2FB59 /* lang_es_PY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E10E44FEB338E9EB198B789C3BB62AF /* lang_es_PY.swift */; };
+		8FE33C575AD294F65B98009A78D6E730 /* lang_mr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772D06EF220C44764F404EDCE03F601 /* lang_mr.swift */; };
+		910C4F8440DE654BE94804574DC9E48F /* lang_gd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B9E356379FF27BE301A1CB4CB4284 /* lang_gd.swift */; };
+		91A43519EA357F6C3A7717B836EAFAAE /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C899686441C8565C2D87B3D66D282 /* DateInRegion.swift */; };
+		985D52EC455CDF54B2771BCC8A539074 /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E750D63C282D23EEDC381217127065F /* DateInRegion+Math.swift */; };
+		98F4ABEF95769D0A5DB5BDC393194746 /* lang_tr.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4B8C2B9CDEDD56EFE53EE53D2747D /* lang_tr.swift */; };
+		99499D51C51DFD18F03333C3DEE21590 /* lang_km.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C44FF9BF52D9C18F7ACD3F3950C3E /* lang_km.swift */; };
+		9A077D65BD19A922F2E30C88C091014C /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADBA43CEBAB7E2D9D61F22059FAA081 /* TimePeriod+Support.swift */; };
+		9A08B74AEC3770BB23FEBD63338D8696 /* lang_fa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC6DA8ED4226F7A5F1C0CFF71FE22D /* lang_fa.swift */; };
+		9B7E813AB7C0DBED3EE14EE7DACA6FAD /* Pods-WeatherTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 465E70549024C83FC27A66C3302969B7 /* Pods-WeatherTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CA2D134B6CF95FA8D1E73055E03D68C /* SwiftDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 006BA65E01FCA1BCDCE0474A13D6899D /* SwiftDate-dummy.m */; };
+		9CB254A128EC26C94BE5D7C70134F888 /* lang_bs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC3DF92967FF9B8CD4FF78EE76D152 /* lang_bs.swift */; };
+		9D1026C7D4FE3BA1BE2862C6EDEA2132 /* lang_lo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2C6708570A96E1885BB1E96809AAF /* lang_lo.swift */; };
+		9E3192BDFA85EFEFF32FE6CD824FA83D /* lang_cy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FB68086FE497160702D8CAAA16234 /* lang_cy.swift */; };
+		9EA6B7CE827246A639B762E5270754AB /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A18ABF13BE0B9AE7549369BAEE2A /* TimeInterval+Formatter.swift */; };
+		A0DC9C55F11587E255618D4F431D3827 /* lang_hu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D7B7576F54B4A017075F15D86305 /* lang_hu.swift */; };
+		A1A19712CDA83A12B510B4BEF98744D5 /* lang_mzn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5AB94AF27092D46EA6942977BEA98 /* lang_mzn.swift */; };
+		A3CE89CE01E1C2C751015E6B3285AA15 /* lang_yi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D9963E0C82580F893CDFFFD880E06C /* lang_yi.swift */; };
+		A3D3E27F4D5EBC2AB19A80D5D718CB56 /* lang_sr_Latn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16D1077DEE47349A59358CB11DDF44 /* lang_sr_Latn.swift */; };
+		A736175390FFADC0D7C69EB67FC34CD2 /* lang_ru.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37F7CD90EB41416592EB646A861F385 /* lang_ru.swift */; };
+		AAEB721FFD6FBB989453286B1DD911A6 /* lang_fi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47094C390E0A30B36A5D3E5E52FEBA9 /* lang_fi.swift */; };
+		AB28D49CEDF9A09C64EF29E0DBEC2DF2 /* lang_lt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CF6B82F0E8B5D6709FD7EA4299D07 /* lang_lt.swift */; };
+		ABCE00EE054B68F9AE247D25B0B5761D /* lang_sd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974EB47FF8E2566BF6D205BEC6BBE99E /* lang_sd.swift */; };
+		AEB7E5E528382E9A41C842E5A58E30DC /* lang_th.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120254A66A80DAEB3AE4F8E2E6114D54 /* lang_th.swift */; };
+		AF7E481DCE57994E81B999FD3539D6C7 /* lang_es.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE8D41A67902E9B10C83941A87C4E8 /* lang_es.swift */; };
+		AF8ACE77183E1B984736AB3A8B6E8333 /* lang_nl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FEDA5C90C34A731C1C100FD2EF529 /* lang_nl.swift */; };
+		B192D04945839BBE4EC701636BC6C660 /* lang_yue_Hans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7EE20135FEF902A78A11FB1081B871 /* lang_yue_Hans.swift */; };
+		B5CB4E3E72E5909E7F37CE162E5E8C35 /* lang_sk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A562D43C8AF488B430AA3ED9F819B1 /* lang_sk.swift */; };
+		B70AEA1CED76204B97F76C4EC30E48AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7176BB311266F4AD477E3E379D80160 /* lang_en.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F7E71A5EB8E071CC6B766F1F9FB78 /* lang_en.swift */; };
+		BB3816C4012177973AA746865778143F /* lang_jgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A5C40E5C69296D368F2A5272BFB4F /* lang_jgo.swift */; };
+		BEF44160860E199F6E816042A4DA106E /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C7AB2D906E8216499A07D571312CF /* TimePeriod.swift */; };
+		C0C0E11742D87AB8C8E14CEE15FC2CD8 /* lang_el.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05546157218EE1F6CE5EC94B7C156F9D /* lang_el.swift */; };
+		C0CD161E05D1F11B6D37AEEF8746F371 /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3126A3C2ADDC7B560665D9E8C1053604 /* SwiftDate.swift */; };
+		C299924DDB0BBA5A8EE13AE8023B89A6 /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0216F235A1B41D50E09B3A477A81C /* Formatter+Protocols.swift */; };
+		C5FA746CA4C419F30AA55B6B3B3E787E /* lang_kk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666D16B11FD462A19AC20390A3F70DB /* lang_kk.swift */; };
+		C9300E894D1B8427C9F35E9E4DCCA755 /* lang_da.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1342248D4AAE6F0A1220C2256D5A30 /* lang_da.swift */; };
+		CBD565B5515A7C25877F6CF643703139 /* lang_ms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16F9336F08E51E0F6114EF8D0F828 /* lang_ms.swift */; };
+		CC985CADD623C48065B4FDA5BB15F133 /* Pods-WeatherTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CAD2736798127508615A42C16A445CA /* Pods-WeatherTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCAD7F90EEF468ACD00ABE3B648E25B4 /* lang_to.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0D3D827C879429CEF6D808A538A5B /* lang_to.swift */; };
+		CCED2826E33E59028CC9689C992A4BE2 /* lang_ky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB0B41985BE983AA1D31F5A04FEF904 /* lang_ky.swift */; };
+		CE2F8CB84AAD26F7275EA58AB069444B /* lang_pl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C162BF3DBF02ACAA4D5415961B69AD36 /* lang_pl.swift */; };
+		CE72D1E2EEB64CCCBAEDCA4B5F3231AE /* lang_bn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F9CC345FD9749BC43264712926284 /* lang_bn.swift */; };
+		CE89A666BF0CDC7E0A56888AA7A78CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D0D95FCFA5A21D8D3E2FDF8AAA0D442F /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50646B622A2AF48A36D146080FBDFA51 /* Locales.swift */; };
+		D12176F03F9F2EC26539E9D74E7EBD3D /* lang_te.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B02D98157C0AF90A64563251B032078 /* lang_te.swift */; };
+		D335B43030578D0A5AA3EAEFB7E4D850 /* lang_zu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CB23AFD49E9978596B4E8CCE49505 /* lang_zu.swift */; };
+		D3508383AC2C99B56E4C45D1DDA9A4EF /* lang_zh_Hans_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A11BB41F29F290E3FBFF7F299B09CD /* lang_zh_Hans_HK.swift */; };
+		D59D8F29849222A0888CA63FDDFE36CD /* lang_am.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38640B26AB531D918581AFA01DA871 /* lang_am.swift */; };
+		D63D3ADAD92BF0EA712A22F5F640D536 /* lang_ee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1741C715BEFB57E2EAA4D47668C95 /* lang_ee.swift */; };
+		D82696C055E9B621ABB524587CDF36B2 /* lang_kok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550C18E6D0A912278E8FE8E64DAC6FE2 /* lang_kok.swift */; };
+		D9FB76674FE2D683DB69918FE596BA5A /* lang_ml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952033B2824CEE7AE98719628239324 /* lang_ml.swift */; };
+		DA5B4D548C1DF0766B8F66C68BDF376F /* lang_ka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112C6924BA3B079D3973C64BA826CBE /* lang_ka.swift */; };
+		DBA9FB5E33821667022FC2F24079ACDF /* lang_ps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DDCD860F3B0A5B3BFDF7AAE6F14910 /* lang_ps.swift */; };
+		DC16E9B963AE3A25CF1BA89985C2C741 /* lang_af.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE3A84BDADA4B0F4F75FBC188823FC /* lang_af.swift */; };
+		DC68FC168BC815C021DC8629CAE7438E /* lang_sw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4892317697AC650229A83008799D8A /* lang_sw.swift */; };
+		E116903A657976E2C432B849F4A5E3C0 /* lang_gl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61456B33225158026A55241D20699A /* lang_gl.swift */; };
+		E25420A0F84F03E4CCEFDE5E38EB9DCE /* lang_es_AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F84FD1E108160E651AF955F1CE513F /* lang_es_AR.swift */; };
+		E389EACA6109249886A8E9E56D5BC220 /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E79C96F81D71AA045ECDD3C35AA959 /* ISOFormatter.swift */; };
+		E461151B2106001567899E19CAAFA56A /* lang_ur_IN.swift in Sources */ = {isa = PBXBuildFile; fileRef = D574C855FA902AAB5A71EFC459629B9B /* lang_ur_IN.swift */; };
+		E501067B19F134EC0A79D8809B8F5787 /* lang_sv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F9558661A47BF8D66B0CF96690FF6 /* lang_sv.swift */; };
+		E703308F83F31387D41E5A3E3CEDF6BD /* lang_sq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E67CFC371EC2E1387372036B6F4624 /* lang_sq.swift */; };
+		E81978A0E31E137A338462ABD4005623 /* lang_eu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A437B205C8954DFA04CAB7C25F8B92 /* lang_eu.swift */; };
+		E8842B9B01644309F2EAC8E0250EC94C /* TimeStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE62D5B644D88A64AA56252DFD7FDB4 /* TimeStructures.swift */; };
+		EAF203BEB3079E5BEE62752469F1FD8D /* lang_sah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CC2CB37FE21335AE568589813DD1C /* lang_sah.swift */; };
+		EBDD7A36F796B5ED52A0EDD809AAFE89 /* lang_ro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE5B39D81292E7C0C26E85B3E12024 /* lang_ro.swift */; };
+		EDE8CE32A8641465410C31434C2C9073 /* SwiftDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFAF63A561D9A36B0D0D9A55D72E4C3 /* SwiftDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF48DDED09C95552C70520DC9371978B /* lang_ur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE1348D665AAD69A24761445F879E7 /* lang_ur.swift */; };
+		F0C855899BD6847DBACAD6276A1450B1 /* lang_az.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CA89116CB83D931DA1FD48B24F58C4 /* lang_az.swift */; };
+		F1DE1330ADCF4339284CD18DD8F945B7 /* lang_hsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48318657D336479E656ADF3614DE436F /* lang_hsb.swift */; };
+		F1F057CF8B2AB4491302925D6873FD7D /* lang_pt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A909092E077B4F15F226D9EE29FD5C /* lang_pt.swift */; };
+		F7981DDEB9C5E2F76C64C7B99F532F33 /* lang_se_FI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4312FD366DEF0E6E896A2D8EDC661 /* lang_se_FI.swift */; };
+		FBC8D4E6A96E7BA38D55175BA383E54A /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DF832B0DA8C5F2F6C7D1EDC31597F /* TimePeriodCollection.swift */; };
+		FD88E568A0DA20CC27F8754194AF4440 /* lang_zh_Hant_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCD52CCD024F94B4D6CC14E17BC9E9 /* lang_zh_Hant_HK.swift */; };
+		FEB07208D4BAC1C9FAFD96C2055EB76B /* lang_nn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D8C79CA04CE6C4E2E6065F4855AD65 /* lang_nn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B31FD85BD5FD6A46EB400D4FA33F878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4869F8C34C771379A7414BBAD0C20063;
+			remoteInfo = "Pods-WeatherTest";
+		};
+		AA0BB785B4F1C46797CAA01FB16D0A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4869F8C34C771379A7414BBAD0C20063;
+			remoteInfo = "Pods-WeatherTest";
+		};
+		AD078BD017B07E3E6BB92A57085B3444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8453AA1B5E6610A222C4D387F88D218;
+			remoteInfo = SwiftDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006BA65E01FCA1BCDCE0474A13D6899D /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
+		00BE3A84BDADA4B0F4F75FBC188823FC /* lang_af.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_af.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_af.swift; sourceTree = "<group>"; };
+		02A562D43C8AF488B430AA3ED9F819B1 /* lang_sk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sk.swift; sourceTree = "<group>"; };
+		02CE089F1569F86A786FF7E5C0FC13CE /* lang_zh_Hans_SG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_SG.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_SG.swift; sourceTree = "<group>"; };
+		03CD2EDE01D6ACCABD41452DADC4096B /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
+		05546157218EE1F6CE5EC94B7C156F9D /* lang_el.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_el.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_el.swift; sourceTree = "<group>"; };
+		06D0216F235A1B41D50E09B3A477A81C /* Formatter+Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Formatter+Protocols.swift"; path = "Sources/SwiftDate/Formatters/Formatter+Protocols.swift"; sourceTree = "<group>"; };
+		08803C843815A62A4B5FF47DDFAC10C9 /* lang_mt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mt.swift; sourceTree = "<group>"; };
+		08BE4E4EE036349660A182C040B9719D /* lang_uz_Cyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz_Cyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz_Cyrl.swift; sourceTree = "<group>"; };
+		095944333684E258C30F6ECDA44A070F /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftDate.modulemap; sourceTree = "<group>"; };
+		0A03D1A31122A7F901C56E74EF1C7B0B /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "Sources/SwiftDate/Date/Date+Compare.swift"; sourceTree = "<group>"; };
+		0A0B9E356379FF27BE301A1CB4CB4284 /* lang_gd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gd.swift; sourceTree = "<group>"; };
+		0A8436C1FE13DC71303E7BD2BE531608 /* lang_hr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hr.swift; sourceTree = "<group>"; };
+		0F6F63C607DBA5917BACB7BCC96A0B89 /* lang_bg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bg.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bg.swift; sourceTree = "<group>"; };
+		1112C6924BA3B079D3973C64BA826CBE /* lang_ka.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ka.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ka.swift; sourceTree = "<group>"; };
+		120254A66A80DAEB3AE4F8E2E6114D54 /* lang_th.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_th.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_th.swift; sourceTree = "<group>"; };
+		136726F5DCF131DB73F5E9E9E75591F8 /* lang_sr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr.swift; sourceTree = "<group>"; };
+		1752D7B7576F54B4A017075F15D86305 /* lang_hu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hu.swift; sourceTree = "<group>"; };
+		1CE62D5B644D88A64AA56252DFD7FDB4 /* TimeStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeStructures.swift; path = Sources/SwiftDate/Supports/TimeStructures.swift; sourceTree = "<group>"; };
+		1F3180ADA36A10EDCBF3D1B87C76ABA5 /* lang_zh_Hans_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_MO.swift; sourceTree = "<group>"; };
+		21E79C96F81D71AA045ECDD3C35AA959 /* ISOFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOFormatter.swift; path = Sources/SwiftDate/Formatters/ISOFormatter.swift; sourceTree = "<group>"; };
+		27EC6DA8ED4226F7A5F1C0CFF71FE22D /* lang_fa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fa.swift; sourceTree = "<group>"; };
+		28678B8D0C42D8D21337DEC94F6560CE /* lang_fo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fo.swift; sourceTree = "<group>"; };
+		2952033B2824CEE7AE98719628239324 /* lang_ml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ml.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ml.swift; sourceTree = "<group>"; };
+		299223A355B8C150572D9BC8F813B0BD /* lang_ksh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ksh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ksh.swift; sourceTree = "<group>"; };
+		2A3CB23AFD49E9978596B4E8CCE49505 /* lang_zu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zu.swift; sourceTree = "<group>"; };
+		2A3FE584448A690AA0DF3ADA4344CCFE /* Pods-WeatherTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTestTests-Info.plist"; sourceTree = "<group>"; };
+		2ADE5EEB80081BDE086B2904F8A63FE0 /* Date+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Create.swift"; path = "Sources/SwiftDate/Date/Date+Create.swift"; sourceTree = "<group>"; };
+		2B2FB68086FE497160702D8CAAA16234 /* lang_cy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cy.swift; sourceTree = "<group>"; };
+		2BE9BFDA7586BE7E2330EDFE92A04174 /* Pods-WeatherTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C09288B42B02B1D96468960AB25D18F /* RelativeFormatter+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RelativeFormatter+Style.swift"; path = "Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter+Style.swift"; sourceTree = "<group>"; };
+		2E750D63C282D23EEDC381217127065F /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Math.swift"; sourceTree = "<group>"; };
+		2F38640B26AB531D918581AFA01DA871 /* lang_am.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_am.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_am.swift; sourceTree = "<group>"; };
+		3126A3C2ADDC7B560665D9E8C1053604 /* SwiftDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftDate.swift; path = Sources/SwiftDate/SwiftDate.swift; sourceTree = "<group>"; };
+		3206EC327DBA9E8D07941B15D3F0E6CF /* lang_mn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mn.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32F84FD1E108160E651AF955F1CE513F /* lang_es_AR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_AR.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_AR.swift; sourceTree = "<group>"; };
+		34AEB17F65F95FBEF33913CB45370DED /* lang_vi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_vi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_vi.swift; sourceTree = "<group>"; };
+		35E67CFC371EC2E1387372036B6F4624 /* lang_sq.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sq.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sq.swift; sourceTree = "<group>"; };
+		36A16F9336F08E51E0F6114EF8D0F828 /* lang_ms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ms.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ms.swift; sourceTree = "<group>"; };
+		375AA0E95C5D932BE15B4F908279AD21 /* Pods-WeatherTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3801283999E68AC1454206D1960798C2 /* lang_et.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_et.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_et.swift; sourceTree = "<group>"; };
+		382C899686441C8565C2D87B3D66D282 /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = Sources/SwiftDate/DateInRegion/DateInRegion.swift; sourceTree = "<group>"; };
+		390F9558661A47BF8D66B0CF96690FF6 /* lang_sv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sv.swift; sourceTree = "<group>"; };
+		3B8FE84E52A59D9EFC22FF2946FB202D /* Pods-WeatherTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherTest-dummy.m"; sourceTree = "<group>"; };
+		3E82A096D9DC3F88DE83767826984572 /* lang_se.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se.swift; sourceTree = "<group>"; };
+		4085A18ABF13BE0B9AE7549369BAEE2A /* TimeInterval+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Formatter.swift"; path = "Sources/SwiftDate/Foundation+Extras/TimeInterval+Formatter.swift"; sourceTree = "<group>"; };
+		40D3D1B5AA4B8C063FA3A1C6225B5A43 /* Pods-WeatherTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41A909092E077B4F15F226D9EE29FD5C /* lang_pt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pt.swift; sourceTree = "<group>"; };
+		449FF5C4D85B3DB60D1BAA4960BF6F0C /* TimePeriodProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodProtocol.swift; path = Sources/SwiftDate/TimePeriod/TimePeriodProtocol.swift; sourceTree = "<group>"; };
+		45020C9581E97C838284D66A750E81BD /* lang_br.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_br.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_br.swift; sourceTree = "<group>"; };
+		465E70549024C83FC27A66C3302969B7 /* Pods-WeatherTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		48318657D336479E656ADF3614DE436F /* lang_hsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hsb.swift; sourceTree = "<group>"; };
+		48CEE70797D027D2C93059E106AB6F9F /* DateInRegion+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Create.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Create.swift"; sourceTree = "<group>"; };
+		4AE89BD70E661AAAECA31552B817D383 /* lang_kea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kea.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kea.swift; sourceTree = "<group>"; };
+		4B2169F3F272237613ADF309B69972A2 /* lang_as.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_as.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_as.swift; sourceTree = "<group>"; };
+		4B72B0FC997B00D03E7A6D008AFB1D33 /* lang_si.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_si.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_si.swift; sourceTree = "<group>"; };
+		4E3FEDA5C90C34A731C1C100FD2EF529 /* lang_nl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nl.swift; sourceTree = "<group>"; };
+		4EDCD52CCD024F94B4D6CC14E17BC9E9 /* lang_zh_Hant_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_HK.swift; sourceTree = "<group>"; };
+		4FAB7FD7972956FBC24D5753EBC23730 /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Components.swift"; sourceTree = "<group>"; };
+		50646B622A2AF48A36D146080FBDFA51 /* Locales.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locales.swift; path = Sources/SwiftDate/Supports/Locales.swift; sourceTree = "<group>"; };
+		54DDCD860F3B0A5B3BFDF7AAE6F14910 /* lang_ps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ps.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ps.swift; sourceTree = "<group>"; };
+		550C18E6D0A912278E8FE8E64DAC6FE2 /* lang_kok.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kok.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kok.swift; sourceTree = "<group>"; };
+		551EA47004A2B3586FB7EAC02D28B6F6 /* lang_he.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_he.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_he.swift; sourceTree = "<group>"; };
+		552F7E71A5EB8E071CC6B766F1F9FB78 /* lang_en.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_en.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_en.swift; sourceTree = "<group>"; };
+		554B37D18615102A1374D00581F87B1C /* Int+DateComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+DateComponents.swift"; path = "Sources/SwiftDate/Foundation+Extras/Int+DateComponents.swift"; sourceTree = "<group>"; };
+		5840B15868A7D07201A5164A600852FF /* Pods-WeatherTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTestUITests-Info.plist"; sourceTree = "<group>"; };
+		5927842D0B9BE47E1FAAA432FEE01A96 /* lang_ar_AE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar_AE.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar_AE.swift; sourceTree = "<group>"; };
+		598A9DB898152473EB8E81CA1F1C10F6 /* lang_tk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tk.swift; sourceTree = "<group>"; };
+		5A7EE20135FEF902A78A11FB1081B871 /* lang_yue_Hans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hans.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hans.swift; sourceTree = "<group>"; };
+		5BB5AB94AF27092D46EA6942977BEA98 /* lang_mzn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mzn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mzn.swift; sourceTree = "<group>"; };
+		5D47AAB7631B967A03BE376D500555A2 /* Pods_WeatherTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeatherTest.framework; path = "Pods-WeatherTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60115A5D5CB5658C00189959FB22D408 /* lang_ga.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ga.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ga.swift; sourceTree = "<group>"; };
+		625F9CC345FD9749BC43264712926284 /* lang_bn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bn.swift; sourceTree = "<group>"; };
+		6289ABC657DAA4448831F1CD38742914 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/SwiftDate/Date/Date.swift; sourceTree = "<group>"; };
+		638A1FA9B1CC963EBE0864E7A942046D /* DotNetParserFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotNetParserFormatter.swift; path = Sources/SwiftDate/Formatters/DotNetParserFormatter.swift; sourceTree = "<group>"; };
+		640B45193A09F54343A9A191120C787C /* DateComponents+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extras.swift"; path = "Sources/SwiftDate/Foundation+Extras/DateComponents+Extras.swift"; sourceTree = "<group>"; };
+		64762E15DD7FA1ACD0B46620D7524C1D /* Pods_WeatherTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeatherTestTests.framework; path = "Pods-WeatherTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FA1B5B0F33C50E98E905512DDE9433 /* lang_ti.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ti.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ti.swift; sourceTree = "<group>"; };
+		68A11BB41F29F290E3FBFF7F299B09CD /* lang_zh_Hans_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_HK.swift; sourceTree = "<group>"; };
+		69916E743E71198FF3321AEBCBF58085 /* lang_uz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz.swift; sourceTree = "<group>"; };
+		69E6ECA649BCD3FB9C4FB286B0A85515 /* Pods-WeatherTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BB0B41985BE983AA1D31F5A04FEF904 /* lang_ky.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ky.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ky.swift; sourceTree = "<group>"; };
+		6CAD2736798127508615A42C16A445CA /* Pods-WeatherTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherTestTests-umbrella.h"; sourceTree = "<group>"; };
+		6D147566C2D25FB688196FD18CA22E07 /* lang_ja.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ja.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ja.swift; sourceTree = "<group>"; };
+		6D5CC2CB37FE21335AE568589813DD1C /* lang_sah.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sah.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sah.swift; sourceTree = "<group>"; };
+		6D7F23E4545936B29016B14BE84DEB86 /* lang_cs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cs.swift; sourceTree = "<group>"; };
+		6DAE8D41A67902E9B10C83941A87C4E8 /* lang_es.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es.swift; sourceTree = "<group>"; };
+		6FF520AE064EF0DCD4AAECEE6A2EEA38 /* RelativeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatter.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter.swift; sourceTree = "<group>"; };
+		72423ED454523B1AC656240012E296B5 /* lang_gu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gu.swift; sourceTree = "<group>"; };
+		72556B26CFBA516A8EBBFA70CB19ADA6 /* Zones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zones.swift; path = Sources/SwiftDate/Supports/Zones.swift; sourceTree = "<group>"; };
+		7372B6D14622BD7DD69DF3D1FBC06084 /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
+		756E1D394F63A6F9ED0566032843A551 /* lang_fr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr.swift; sourceTree = "<group>"; };
+		7651DACFB3FB0EA93600304C372013AD /* Pods-WeatherTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77C2184E66152809D429E2AD50956C17 /* lang_sl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sl.swift; sourceTree = "<group>"; };
+		785DF832B0DA8C5F2F6C7D1EDC31597F /* TimePeriodCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodCollection.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodCollection.swift; sourceTree = "<group>"; };
+		7A87644F4D47FD7ED5E7110C434B9BEB /* lang_lb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lb.swift; sourceTree = "<group>"; };
+		7B02D98157C0AF90A64563251B032078 /* lang_te.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_te.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_te.swift; sourceTree = "<group>"; };
+		7BB48875017D44E5D6E26E403AA8852A /* lang_hy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hy.swift; sourceTree = "<group>"; };
+		7BC67A6596F5854E35BD85CA8F83EFF2 /* lang_dz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dz.swift; sourceTree = "<group>"; };
+		7C1D57CF9476952F79FE314D38ECCEF2 /* Pods_WeatherTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeatherTestUITests.framework; path = "Pods-WeatherTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6CF6B82F0E8B5D6709FD7EA4299D07 /* lang_lt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lt.swift; sourceTree = "<group>"; };
+		7C8C44FF9BF52D9C18F7ACD3F3950C3E /* lang_km.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_km.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_km.swift; sourceTree = "<group>"; };
+		7CFAF63A561D9A36B0D0D9A55D72E4C3 /* SwiftDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-umbrella.h"; sourceTree = "<group>"; };
+		7D882B53C2A6D655C769209CA9DD37BB /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodChain.swift; sourceTree = "<group>"; };
+		7E03F8AA4D174918C283994B69AB3508 /* lang_bsCyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bsCyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bsCyrl.swift; sourceTree = "<group>"; };
+		7F6B87E903228CFE89BF4AC040DB23D9 /* Pods-WeatherTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FCDC28B59AC2C3C7AA27F9AF2F3DD4E /* lang_fil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fil.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fil.swift; sourceTree = "<group>"; };
+		82DB64026937F5B19A41CF9EFD65B080 /* lang_be.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_be.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_be.swift; sourceTree = "<group>"; };
+		83D8C79CA04CE6C4E2E6065F4855AD65 /* lang_nn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nn.swift; sourceTree = "<group>"; };
+		8666D16B11FD462A19AC20390A3F70DB /* lang_kk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kk.swift; sourceTree = "<group>"; };
+		87825E5A5E85A97313393B45337516A3 /* Pods-WeatherTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8909E38A22B75FFBBBF8BC3868F654A1 /* SwiftDate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftDate-Info.plist"; sourceTree = "<group>"; };
+		89B0A786655BFF692607A90D73D28BEB /* lang_mk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mk.swift; sourceTree = "<group>"; };
+		8ADBA43CEBAB7E2D9D61F22059FAA081 /* TimePeriod+Support.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimePeriod+Support.swift"; path = "Sources/SwiftDate/TimePeriod/TimePeriod+Support.swift"; sourceTree = "<group>"; };
+		8CCCDE2CDE39779B6C8578F18812F15E /* lang_wae.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_wae.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_wae.swift; sourceTree = "<group>"; };
+		8DBCAE1D76FB087D887D526D0974BB4B /* Pods-WeatherTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E10E44FEB338E9EB198B789C3BB62AF /* lang_es_PY.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_PY.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_PY.swift; sourceTree = "<group>"; };
+		8E483DF5AE94F3DAEAE7DABD58062DCF /* Pods-WeatherTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherTestTests.modulemap"; sourceTree = "<group>"; };
+		8E94E4653A4016A891A7A00144226DB4 /* lang_kl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kl.swift; sourceTree = "<group>"; };
+		902F4559B871AB5477FA9725CCFFF149 /* lang_lv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lv.swift; sourceTree = "<group>"; };
+		9255F2EA2C48B96805DD7F17E10B2418 /* lang_fr_CA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr_CA.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr_CA.swift; sourceTree = "<group>"; };
+		93A437B205C8954DFA04CAB7C25F8B92 /* lang_eu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_eu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_eu.swift; sourceTree = "<group>"; };
+		950C7AB2D906E8216499A07D571312CF /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = Sources/SwiftDate/TimePeriod/TimePeriod.swift; sourceTree = "<group>"; };
+		974EB47FF8E2566BF6D205BEC6BBE99E /* lang_sd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sd.swift; sourceTree = "<group>"; };
+		97AF707493E0103FE4DF458C8FCA3ED4 /* lang_it.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_it.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_it.swift; sourceTree = "<group>"; };
+		9952D3F18B89E1AFB0B44EC74B77B728 /* lang_ne.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ne.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ne.swift; sourceTree = "<group>"; };
+		99964273CE55770A64436BD2AFB76716 /* AssociatedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedValues.swift; path = Sources/SwiftDate/Supports/AssociatedValues.swift; sourceTree = "<group>"; };
+		99F47165BF0F2F4AE630F3E57C919133 /* Pods-WeatherTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherTest-umbrella.h"; sourceTree = "<group>"; };
+		9ABE1348D665AAD69A24761445F879E7 /* lang_ur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur.swift; sourceTree = "<group>"; };
+		9AC4312FD366DEF0E6E896A2D8EDC661 /* lang_se_FI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se_FI.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se_FI.swift; sourceTree = "<group>"; };
+		9BD2C6708570A96E1885BB1E96809AAF /* lang_lo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lo.swift; sourceTree = "<group>"; };
+		9C89FA06446FAF21F55F0BC3449C3BA9 /* lang_lkt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lkt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lkt.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A39AB7B8BF867C65E43DDB3033B05F70 /* lang_yue_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hant.swift; sourceTree = "<group>"; };
+		A48C73F7B296F7F031973EF6C23F5B9B /* lang_zh_Hant_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_MO.swift; sourceTree = "<group>"; };
+		A5150978D1C7DCA99B51050734A97D0E /* lang_uk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uk.swift; sourceTree = "<group>"; };
+		A74BADBBCDA9E6E6E3C82E23A63025B8 /* lang_es_MX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_MX.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_MX.swift; sourceTree = "<group>"; };
+		AA16D1077DEE47349A59358CB11DDF44 /* lang_sr_Latn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr_Latn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr_Latn.swift; sourceTree = "<group>"; };
+		AD598051276454A3845809BD281126FF /* Pods-WeatherTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherTest.modulemap"; sourceTree = "<group>"; };
+		ADD4B8C2B9CDEDD56EFE53EE53D2747D /* lang_tr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tr.swift; sourceTree = "<group>"; };
+		AE1342248D4AAE6F0A1220C2256D5A30 /* lang_da.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_da.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_da.swift; sourceTree = "<group>"; };
+		B0CC3DF92967FF9B8CD4FF78EE76D152 /* lang_bs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bs.swift; sourceTree = "<group>"; };
+		B0E093D5A9CBB9BCEDD5DE04B74EA11C /* lang_ca.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ca.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ca.swift; sourceTree = "<group>"; };
+		B27FF3A3EB6CCD7D503D884FA0E08865 /* lang_ko.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ko.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ko.swift; sourceTree = "<group>"; };
+		B7B2E20C5E7371759004A8DC94A6D5DF /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftDate/Supports/Commons.swift; sourceTree = "<group>"; };
+		B9CA89116CB83D931DA1FD48B24F58C4 /* lang_az.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_az.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_az.swift; sourceTree = "<group>"; };
+		B9DCD9306957AE04076F32060F6CFB10 /* Pods-WeatherTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTest-Info.plist"; sourceTree = "<group>"; };
+		BC887F5DBF779965A777B003314968F4 /* Pods-WeatherTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherTestUITests.modulemap"; sourceTree = "<group>"; };
+		BC9BFBE4B7F117C1A66E3ADD1DFB73B7 /* lang_nb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nb.swift; sourceTree = "<group>"; };
+		BEE135E1C3FAD5BDA78375FEFDB34B8D /* lang_ar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar.swift; sourceTree = "<group>"; };
+		C162BF3DBF02ACAA4D5415961B69AD36 /* lang_pl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pl.swift; sourceTree = "<group>"; };
+		C1F9124F4DF0C4378A1CFCE026B67497 /* lang_or.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_or.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_or.swift; sourceTree = "<group>"; };
+		C23F8917DCBEB8CD23A4F7208F1B1212 /* Pods-WeatherTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTest.release.xcconfig"; sourceTree = "<group>"; };
+		C948B4B28E06E25A296805ADB3DECBA5 /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = Sources/SwiftDate/Supports/Calendars.swift; sourceTree = "<group>"; };
+		C9E18E6F5C488EFA52FAF1C4DBA99DB5 /* Pods-WeatherTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4892317697AC650229A83008799D8A /* lang_sw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sw.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sw.swift; sourceTree = "<group>"; };
+		CF53DFFBC23CC22E3A1E9A99107FEA7B /* lang_dsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dsb.swift; sourceTree = "<group>"; };
+		D23FF4DFEE155229A72D108E5B223B12 /* lang_is.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_is.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_is.swift; sourceTree = "<group>"; };
+		D37F7CD90EB41416592EB646A861F385 /* lang_ru.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ru.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ru.swift; sourceTree = "<group>"; };
+		D55167D677C8D6A3BC9B0C84F37FB9D5 /* lang_ug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ug.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ug.swift; sourceTree = "<group>"; };
+		D574C855FA902AAB5A71EFC459629B9B /* lang_ur_IN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur_IN.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur_IN.swift; sourceTree = "<group>"; };
+		D58A68CE37D9A040CCEE0732C8D0D3CE /* Pods-WeatherTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherTestUITests-dummy.m"; sourceTree = "<group>"; };
+		D6A2FCDB7E2D49427969A5E5BAA79A13 /* lang_es_US.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_US.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_US.swift; sourceTree = "<group>"; };
+		D772D06EF220C44764F404EDCE03F601 /* lang_mr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mr.swift; sourceTree = "<group>"; };
+		D7DFFABAFF1390915D125C40B21A1370 /* lang_fy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fy.swift; sourceTree = "<group>"; };
+		DAD31442C39BBE72E4C05860755DC2E3 /* Pods-WeatherTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherTestTests-dummy.m"; sourceTree = "<group>"; };
+		DAF0D3D827C879429CEF6D808A538A5B /* lang_to.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_to.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_to.swift; sourceTree = "<group>"; };
+		E02A5C40E5C69296D368F2A5272BFB4F /* lang_jgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_jgo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_jgo.swift; sourceTree = "<group>"; };
+		E27A0871713343181E1638A57806049F /* String+Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Parser.swift"; path = "Sources/SwiftDate/Foundation+Extras/String+Parser.swift"; sourceTree = "<group>"; };
+		E3E6398DDC6E25B7001085C0E33F28CF /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Sources/SwiftDate/DateInRegion/Region.swift; sourceTree = "<group>"; };
+		E3F1741C715BEFB57E2EAA4D47668C95 /* lang_ee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ee.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ee.swift; sourceTree = "<group>"; };
+		E4662691CFCA35361EE2C7AE4E6B0808 /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodGroup.swift; sourceTree = "<group>"; };
+		E47094C390E0A30B36A5D3E5E52FEBA9 /* lang_fi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fi.swift; sourceTree = "<group>"; };
+		E587574821E5A979E724A5B82AE20DC1 /* ISOParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOParser.swift; path = Sources/SwiftDate/Formatters/ISOParser.swift; sourceTree = "<group>"; };
+		EA0B82E48A8FCF60DD0626C7F66A38C1 /* lang_zh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh.swift; sourceTree = "<group>"; };
+		ECF05A1583DB5886C32E89F5D2FD630D /* lang_pa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pa.swift; sourceTree = "<group>"; };
+		EE5B1AEE3FC2671CFA46C1D7A3F83BDA /* lang_zh_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant.swift; sourceTree = "<group>"; };
+		F299E39BF2AB8E652E97E93105424102 /* Pods-WeatherTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F31A4CAF09EB99BD0777A7E7CF27B789 /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "Sources/SwiftDate/Date/Date+Math.swift"; sourceTree = "<group>"; };
+		F349EBEE47FD4A7F6B6D5CF8AF0005A6 /* lang_ta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ta.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ta.swift; sourceTree = "<group>"; };
+		F4E6FCECCFCDD634325DF629D8D755E4 /* lang_kn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kn.swift; sourceTree = "<group>"; };
+		F541F89234CD8EF748C41592B5BA9937 /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
+		F5E7A3292613A98CF1E23E4FD42BF9AF /* lang_id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_id.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_id.swift; sourceTree = "<group>"; };
+		F82985E363EDB8D2839656B020C432DA /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "Sources/SwiftDate/Date/Date+Components.swift"; sourceTree = "<group>"; };
+		F8EE5B39D81292E7C0C26E85B3E12024 /* lang_ro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ro.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ro.swift; sourceTree = "<group>"; };
+		F9C7CB30C3F60D0017B43029C610B970 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D9963E0C82580F893CDFFFD880E06C /* lang_yi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yi.swift; sourceTree = "<group>"; };
+		FA6225E98C70170C1BFC3AD62D818348 /* lang_hi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hi.swift; sourceTree = "<group>"; };
+		FA9D98A26F802FEB76FEAAA82A04FB5B /* lang_my.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_my.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_my.swift; sourceTree = "<group>"; };
+		FABB6E2ADCABC9BDDF83ED504916EFB8 /* lang_fur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fur.swift; sourceTree = "<group>"; };
+		FB16DAB2CE7A8DEC5F471DA29650BBF0 /* lang_de.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_de.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_de.swift; sourceTree = "<group>"; };
+		FC42D8F67A9679C49BF66DE76C6D4631 /* Pods-WeatherTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherTest-frameworks.sh"; sourceTree = "<group>"; };
+		FD61456B33225158026A55241D20699A /* lang_gl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gl.swift; sourceTree = "<group>"; };
+		FE8362F386688B9FF82F0676E8F47476 /* Pods-WeatherTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF2F8DD91F33EBFDF0F52ED7D6B9EF64 /* DateRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRepresentable.swift; path = Sources/SwiftDate/DateRepresentable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3609A51698586A62CB22F4067D961524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE89A666BF0CDC7E0A56888AA7A78CF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F4A8EE2F7822579FC6FF2F06E92A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BD423E588F68B5ED40CAB854AEA3C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796E145AED2F3A67D22288EE29A02CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70AEA1CED76204B97F76C4EC30E48AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFFC901F7ED86A9A5D3995CC3CA5C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A66C8E1AC052EA8123BE0ED28CD0415 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3DD5DFF36AA05EA1FD67FEF728EBB9 /* Pods-WeatherTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD598051276454A3845809BD281126FF /* Pods-WeatherTest.modulemap */,
+				7F6B87E903228CFE89BF4AC040DB23D9 /* Pods-WeatherTest-acknowledgements.markdown */,
+				69E6ECA649BCD3FB9C4FB286B0A85515 /* Pods-WeatherTest-acknowledgements.plist */,
+				3B8FE84E52A59D9EFC22FF2946FB202D /* Pods-WeatherTest-dummy.m */,
+				FC42D8F67A9679C49BF66DE76C6D4631 /* Pods-WeatherTest-frameworks.sh */,
+				B9DCD9306957AE04076F32060F6CFB10 /* Pods-WeatherTest-Info.plist */,
+				99F47165BF0F2F4AE630F3E57C919133 /* Pods-WeatherTest-umbrella.h */,
+				87825E5A5E85A97313393B45337516A3 /* Pods-WeatherTest.debug.xcconfig */,
+				C23F8917DCBEB8CD23A4F7208F1B1212 /* Pods-WeatherTest.release.xcconfig */,
+			);
+			name = "Pods-WeatherTest";
+			path = "Target Support Files/Pods-WeatherTest";
+			sourceTree = "<group>";
+		};
+		26D7701FFBA82758A8950C3763983D65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				095944333684E258C30F6ECDA44A070F /* SwiftDate.modulemap */,
+				F541F89234CD8EF748C41592B5BA9937 /* SwiftDate.xcconfig */,
+				006BA65E01FCA1BCDCE0474A13D6899D /* SwiftDate-dummy.m */,
+				8909E38A22B75FFBBBF8BC3868F654A1 /* SwiftDate-Info.plist */,
+				7372B6D14622BD7DD69DF3D1FBC06084 /* SwiftDate-prefix.pch */,
+				7CFAF63A561D9A36B0D0D9A55D72E4C3 /* SwiftDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDate";
+			sourceTree = "<group>";
+		};
+		333D4EF147B7B700CB71ABA14C593957 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD211B074BB7DF9356FF1D5DE65ED5 /* SwiftDate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EF039C6B7B6CA7549D7B6623B8A1F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D47AAB7631B967A03BE376D500555A2 /* Pods_WeatherTest.framework */,
+				64762E15DD7FA1ACD0B46620D7524C1D /* Pods_WeatherTestTests.framework */,
+				7C1D57CF9476952F79FE314D38ECCEF2 /* Pods_WeatherTestUITests.framework */,
+				F9C7CB30C3F60D0017B43029C610B970 /* SwiftDate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D24ADB7FB20E16DB992FE9DC3D60F4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DD5DFF36AA05EA1FD67FEF728EBB9 /* Pods-WeatherTest */,
+				7E32F0EB385C444C0409C623462E2DF1 /* Pods-WeatherTestTests */,
+				FB2F23DF2A3AA0E062E37C73A39A5370 /* Pods-WeatherTestUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7E32F0EB385C444C0409C623462E2DF1 /* Pods-WeatherTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E483DF5AE94F3DAEAE7DABD58062DCF /* Pods-WeatherTestTests.modulemap */,
+				8DBCAE1D76FB087D887D526D0974BB4B /* Pods-WeatherTestTests-acknowledgements.markdown */,
+				7651DACFB3FB0EA93600304C372013AD /* Pods-WeatherTestTests-acknowledgements.plist */,
+				DAD31442C39BBE72E4C05860755DC2E3 /* Pods-WeatherTestTests-dummy.m */,
+				2A3FE584448A690AA0DF3ADA4344CCFE /* Pods-WeatherTestTests-Info.plist */,
+				6CAD2736798127508615A42C16A445CA /* Pods-WeatherTestTests-umbrella.h */,
+				C9E18E6F5C488EFA52FAF1C4DBA99DB5 /* Pods-WeatherTestTests.debug.xcconfig */,
+				F299E39BF2AB8E652E97E93105424102 /* Pods-WeatherTestTests.release.xcconfig */,
+			);
+			name = "Pods-WeatherTestTests";
+			path = "Target Support Files/Pods-WeatherTestTests";
+			sourceTree = "<group>";
+		};
+		9AFD211B074BB7DF9356FF1D5DE65ED5 /* SwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				99964273CE55770A64436BD2AFB76716 /* AssociatedValues.swift */,
+				C948B4B28E06E25A296805ADB3DECBA5 /* Calendars.swift */,
+				B7B2E20C5E7371759004A8DC94A6D5DF /* Commons.swift */,
+				6289ABC657DAA4448831F1CD38742914 /* Date.swift */,
+				0A03D1A31122A7F901C56E74EF1C7B0B /* Date+Compare.swift */,
+				F82985E363EDB8D2839656B020C432DA /* Date+Components.swift */,
+				2ADE5EEB80081BDE086B2904F8A63FE0 /* Date+Create.swift */,
+				F31A4CAF09EB99BD0777A7E7CF27B789 /* Date+Math.swift */,
+				640B45193A09F54343A9A191120C787C /* DateComponents+Extras.swift */,
+				382C899686441C8565C2D87B3D66D282 /* DateInRegion.swift */,
+				03CD2EDE01D6ACCABD41452DADC4096B /* DateInRegion+Compare.swift */,
+				4FAB7FD7972956FBC24D5753EBC23730 /* DateInRegion+Components.swift */,
+				48CEE70797D027D2C93059E106AB6F9F /* DateInRegion+Create.swift */,
+				2E750D63C282D23EEDC381217127065F /* DateInRegion+Math.swift */,
+				FF2F8DD91F33EBFDF0F52ED7D6B9EF64 /* DateRepresentable.swift */,
+				638A1FA9B1CC963EBE0864E7A942046D /* DotNetParserFormatter.swift */,
+				06D0216F235A1B41D50E09B3A477A81C /* Formatter+Protocols.swift */,
+				554B37D18615102A1374D00581F87B1C /* Int+DateComponents.swift */,
+				21E79C96F81D71AA045ECDD3C35AA959 /* ISOFormatter.swift */,
+				E587574821E5A979E724A5B82AE20DC1 /* ISOParser.swift */,
+				00BE3A84BDADA4B0F4F75FBC188823FC /* lang_af.swift */,
+				2F38640B26AB531D918581AFA01DA871 /* lang_am.swift */,
+				BEE135E1C3FAD5BDA78375FEFDB34B8D /* lang_ar.swift */,
+				5927842D0B9BE47E1FAAA432FEE01A96 /* lang_ar_AE.swift */,
+				4B2169F3F272237613ADF309B69972A2 /* lang_as.swift */,
+				B9CA89116CB83D931DA1FD48B24F58C4 /* lang_az.swift */,
+				82DB64026937F5B19A41CF9EFD65B080 /* lang_be.swift */,
+				0F6F63C607DBA5917BACB7BCC96A0B89 /* lang_bg.swift */,
+				625F9CC345FD9749BC43264712926284 /* lang_bn.swift */,
+				45020C9581E97C838284D66A750E81BD /* lang_br.swift */,
+				B0CC3DF92967FF9B8CD4FF78EE76D152 /* lang_bs.swift */,
+				7E03F8AA4D174918C283994B69AB3508 /* lang_bsCyrl.swift */,
+				B0E093D5A9CBB9BCEDD5DE04B74EA11C /* lang_ca.swift */,
+				6D7F23E4545936B29016B14BE84DEB86 /* lang_cs.swift */,
+				2B2FB68086FE497160702D8CAAA16234 /* lang_cy.swift */,
+				AE1342248D4AAE6F0A1220C2256D5A30 /* lang_da.swift */,
+				FB16DAB2CE7A8DEC5F471DA29650BBF0 /* lang_de.swift */,
+				CF53DFFBC23CC22E3A1E9A99107FEA7B /* lang_dsb.swift */,
+				7BC67A6596F5854E35BD85CA8F83EFF2 /* lang_dz.swift */,
+				E3F1741C715BEFB57E2EAA4D47668C95 /* lang_ee.swift */,
+				05546157218EE1F6CE5EC94B7C156F9D /* lang_el.swift */,
+				552F7E71A5EB8E071CC6B766F1F9FB78 /* lang_en.swift */,
+				6DAE8D41A67902E9B10C83941A87C4E8 /* lang_es.swift */,
+				32F84FD1E108160E651AF955F1CE513F /* lang_es_AR.swift */,
+				A74BADBBCDA9E6E6E3C82E23A63025B8 /* lang_es_MX.swift */,
+				8E10E44FEB338E9EB198B789C3BB62AF /* lang_es_PY.swift */,
+				D6A2FCDB7E2D49427969A5E5BAA79A13 /* lang_es_US.swift */,
+				3801283999E68AC1454206D1960798C2 /* lang_et.swift */,
+				93A437B205C8954DFA04CAB7C25F8B92 /* lang_eu.swift */,
+				27EC6DA8ED4226F7A5F1C0CFF71FE22D /* lang_fa.swift */,
+				E47094C390E0A30B36A5D3E5E52FEBA9 /* lang_fi.swift */,
+				7FCDC28B59AC2C3C7AA27F9AF2F3DD4E /* lang_fil.swift */,
+				28678B8D0C42D8D21337DEC94F6560CE /* lang_fo.swift */,
+				756E1D394F63A6F9ED0566032843A551 /* lang_fr.swift */,
+				9255F2EA2C48B96805DD7F17E10B2418 /* lang_fr_CA.swift */,
+				FABB6E2ADCABC9BDDF83ED504916EFB8 /* lang_fur.swift */,
+				D7DFFABAFF1390915D125C40B21A1370 /* lang_fy.swift */,
+				60115A5D5CB5658C00189959FB22D408 /* lang_ga.swift */,
+				0A0B9E356379FF27BE301A1CB4CB4284 /* lang_gd.swift */,
+				FD61456B33225158026A55241D20699A /* lang_gl.swift */,
+				72423ED454523B1AC656240012E296B5 /* lang_gu.swift */,
+				551EA47004A2B3586FB7EAC02D28B6F6 /* lang_he.swift */,
+				FA6225E98C70170C1BFC3AD62D818348 /* lang_hi.swift */,
+				0A8436C1FE13DC71303E7BD2BE531608 /* lang_hr.swift */,
+				48318657D336479E656ADF3614DE436F /* lang_hsb.swift */,
+				1752D7B7576F54B4A017075F15D86305 /* lang_hu.swift */,
+				7BB48875017D44E5D6E26E403AA8852A /* lang_hy.swift */,
+				F5E7A3292613A98CF1E23E4FD42BF9AF /* lang_id.swift */,
+				D23FF4DFEE155229A72D108E5B223B12 /* lang_is.swift */,
+				97AF707493E0103FE4DF458C8FCA3ED4 /* lang_it.swift */,
+				6D147566C2D25FB688196FD18CA22E07 /* lang_ja.swift */,
+				E02A5C40E5C69296D368F2A5272BFB4F /* lang_jgo.swift */,
+				1112C6924BA3B079D3973C64BA826CBE /* lang_ka.swift */,
+				4AE89BD70E661AAAECA31552B817D383 /* lang_kea.swift */,
+				8666D16B11FD462A19AC20390A3F70DB /* lang_kk.swift */,
+				8E94E4653A4016A891A7A00144226DB4 /* lang_kl.swift */,
+				7C8C44FF9BF52D9C18F7ACD3F3950C3E /* lang_km.swift */,
+				F4E6FCECCFCDD634325DF629D8D755E4 /* lang_kn.swift */,
+				B27FF3A3EB6CCD7D503D884FA0E08865 /* lang_ko.swift */,
+				550C18E6D0A912278E8FE8E64DAC6FE2 /* lang_kok.swift */,
+				299223A355B8C150572D9BC8F813B0BD /* lang_ksh.swift */,
+				6BB0B41985BE983AA1D31F5A04FEF904 /* lang_ky.swift */,
+				7A87644F4D47FD7ED5E7110C434B9BEB /* lang_lb.swift */,
+				9C89FA06446FAF21F55F0BC3449C3BA9 /* lang_lkt.swift */,
+				9BD2C6708570A96E1885BB1E96809AAF /* lang_lo.swift */,
+				7C6CF6B82F0E8B5D6709FD7EA4299D07 /* lang_lt.swift */,
+				902F4559B871AB5477FA9725CCFFF149 /* lang_lv.swift */,
+				89B0A786655BFF692607A90D73D28BEB /* lang_mk.swift */,
+				2952033B2824CEE7AE98719628239324 /* lang_ml.swift */,
+				3206EC327DBA9E8D07941B15D3F0E6CF /* lang_mn.swift */,
+				D772D06EF220C44764F404EDCE03F601 /* lang_mr.swift */,
+				36A16F9336F08E51E0F6114EF8D0F828 /* lang_ms.swift */,
+				08803C843815A62A4B5FF47DDFAC10C9 /* lang_mt.swift */,
+				FA9D98A26F802FEB76FEAAA82A04FB5B /* lang_my.swift */,
+				5BB5AB94AF27092D46EA6942977BEA98 /* lang_mzn.swift */,
+				BC9BFBE4B7F117C1A66E3ADD1DFB73B7 /* lang_nb.swift */,
+				9952D3F18B89E1AFB0B44EC74B77B728 /* lang_ne.swift */,
+				4E3FEDA5C90C34A731C1C100FD2EF529 /* lang_nl.swift */,
+				83D8C79CA04CE6C4E2E6065F4855AD65 /* lang_nn.swift */,
+				C1F9124F4DF0C4378A1CFCE026B67497 /* lang_or.swift */,
+				ECF05A1583DB5886C32E89F5D2FD630D /* lang_pa.swift */,
+				C162BF3DBF02ACAA4D5415961B69AD36 /* lang_pl.swift */,
+				54DDCD860F3B0A5B3BFDF7AAE6F14910 /* lang_ps.swift */,
+				41A909092E077B4F15F226D9EE29FD5C /* lang_pt.swift */,
+				F8EE5B39D81292E7C0C26E85B3E12024 /* lang_ro.swift */,
+				D37F7CD90EB41416592EB646A861F385 /* lang_ru.swift */,
+				6D5CC2CB37FE21335AE568589813DD1C /* lang_sah.swift */,
+				974EB47FF8E2566BF6D205BEC6BBE99E /* lang_sd.swift */,
+				3E82A096D9DC3F88DE83767826984572 /* lang_se.swift */,
+				9AC4312FD366DEF0E6E896A2D8EDC661 /* lang_se_FI.swift */,
+				4B72B0FC997B00D03E7A6D008AFB1D33 /* lang_si.swift */,
+				02A562D43C8AF488B430AA3ED9F819B1 /* lang_sk.swift */,
+				77C2184E66152809D429E2AD50956C17 /* lang_sl.swift */,
+				35E67CFC371EC2E1387372036B6F4624 /* lang_sq.swift */,
+				136726F5DCF131DB73F5E9E9E75591F8 /* lang_sr.swift */,
+				AA16D1077DEE47349A59358CB11DDF44 /* lang_sr_Latn.swift */,
+				390F9558661A47BF8D66B0CF96690FF6 /* lang_sv.swift */,
+				CE4892317697AC650229A83008799D8A /* lang_sw.swift */,
+				F349EBEE47FD4A7F6B6D5CF8AF0005A6 /* lang_ta.swift */,
+				7B02D98157C0AF90A64563251B032078 /* lang_te.swift */,
+				120254A66A80DAEB3AE4F8E2E6114D54 /* lang_th.swift */,
+				65FA1B5B0F33C50E98E905512DDE9433 /* lang_ti.swift */,
+				598A9DB898152473EB8E81CA1F1C10F6 /* lang_tk.swift */,
+				DAF0D3D827C879429CEF6D808A538A5B /* lang_to.swift */,
+				ADD4B8C2B9CDEDD56EFE53EE53D2747D /* lang_tr.swift */,
+				D55167D677C8D6A3BC9B0C84F37FB9D5 /* lang_ug.swift */,
+				A5150978D1C7DCA99B51050734A97D0E /* lang_uk.swift */,
+				9ABE1348D665AAD69A24761445F879E7 /* lang_ur.swift */,
+				D574C855FA902AAB5A71EFC459629B9B /* lang_ur_IN.swift */,
+				69916E743E71198FF3321AEBCBF58085 /* lang_uz.swift */,
+				08BE4E4EE036349660A182C040B9719D /* lang_uz_Cyrl.swift */,
+				34AEB17F65F95FBEF33913CB45370DED /* lang_vi.swift */,
+				8CCCDE2CDE39779B6C8578F18812F15E /* lang_wae.swift */,
+				F9D9963E0C82580F893CDFFFD880E06C /* lang_yi.swift */,
+				5A7EE20135FEF902A78A11FB1081B871 /* lang_yue_Hans.swift */,
+				A39AB7B8BF867C65E43DDB3033B05F70 /* lang_yue_Hant.swift */,
+				EA0B82E48A8FCF60DD0626C7F66A38C1 /* lang_zh.swift */,
+				68A11BB41F29F290E3FBFF7F299B09CD /* lang_zh_Hans_HK.swift */,
+				1F3180ADA36A10EDCBF3D1B87C76ABA5 /* lang_zh_Hans_MO.swift */,
+				02CE089F1569F86A786FF7E5C0FC13CE /* lang_zh_Hans_SG.swift */,
+				EE5B1AEE3FC2671CFA46C1D7A3F83BDA /* lang_zh_Hant.swift */,
+				4EDCD52CCD024F94B4D6CC14E17BC9E9 /* lang_zh_Hant_HK.swift */,
+				A48C73F7B296F7F031973EF6C23F5B9B /* lang_zh_Hant_MO.swift */,
+				2A3CB23AFD49E9978596B4E8CCE49505 /* lang_zu.swift */,
+				50646B622A2AF48A36D146080FBDFA51 /* Locales.swift */,
+				E3E6398DDC6E25B7001085C0E33F28CF /* Region.swift */,
+				6FF520AE064EF0DCD4AAECEE6A2EEA38 /* RelativeFormatter.swift */,
+				2C09288B42B02B1D96468960AB25D18F /* RelativeFormatter+Style.swift */,
+				E27A0871713343181E1638A57806049F /* String+Parser.swift */,
+				3126A3C2ADDC7B560665D9E8C1053604 /* SwiftDate.swift */,
+				4085A18ABF13BE0B9AE7549369BAEE2A /* TimeInterval+Formatter.swift */,
+				950C7AB2D906E8216499A07D571312CF /* TimePeriod.swift */,
+				8ADBA43CEBAB7E2D9D61F22059FAA081 /* TimePeriod+Support.swift */,
+				7D882B53C2A6D655C769209CA9DD37BB /* TimePeriodChain.swift */,
+				785DF832B0DA8C5F2F6C7D1EDC31597F /* TimePeriodCollection.swift */,
+				E4662691CFCA35361EE2C7AE4E6B0808 /* TimePeriodGroup.swift */,
+				449FF5C4D85B3DB60D1BAA4960BF6F0C /* TimePeriodProtocol.swift */,
+				1CE62D5B644D88A64AA56252DFD7FDB4 /* TimeStructures.swift */,
+				72556B26CFBA516A8EBBFA70CB19ADA6 /* Zones.swift */,
+				26D7701FFBA82758A8950C3763983D65 /* Support Files */,
+			);
+			name = SwiftDate;
+			path = SwiftDate;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				333D4EF147B7B700CB71ABA14C593957 /* Pods */,
+				6EF039C6B7B6CA7549D7B6623B8A1F0C /* Products */,
+				7D24ADB7FB20E16DB992FE9DC3D60F4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB2F23DF2A3AA0E062E37C73A39A5370 /* Pods-WeatherTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC887F5DBF779965A777B003314968F4 /* Pods-WeatherTestUITests.modulemap */,
+				FE8362F386688B9FF82F0676E8F47476 /* Pods-WeatherTestUITests-acknowledgements.markdown */,
+				40D3D1B5AA4B8C063FA3A1C6225B5A43 /* Pods-WeatherTestUITests-acknowledgements.plist */,
+				D58A68CE37D9A040CCEE0732C8D0D3CE /* Pods-WeatherTestUITests-dummy.m */,
+				5840B15868A7D07201A5164A600852FF /* Pods-WeatherTestUITests-Info.plist */,
+				465E70549024C83FC27A66C3302969B7 /* Pods-WeatherTestUITests-umbrella.h */,
+				375AA0E95C5D932BE15B4F908279AD21 /* Pods-WeatherTestUITests.debug.xcconfig */,
+				2BE9BFDA7586BE7E2330EDFE92A04174 /* Pods-WeatherTestUITests.release.xcconfig */,
+			);
+			name = "Pods-WeatherTestUITests";
+			path = "Target Support Files/Pods-WeatherTestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BCD68E45080981230F31900C79EC98B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE8CE32A8641465410C31434C2C9073 /* SwiftDate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37BD08429FFE4D5C2219ADF33E65E90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D24DE448F03639CE66D9655CCBD3033 /* Pods-WeatherTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5609A3000E2077DBFC545724C138ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7E813AB7C0DBED3EE14EE7DACA6FAD /* Pods-WeatherTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF306B7B1B215A51146D478A91E4EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC985CADD623C48065B4FDA5BB15F133 /* Pods-WeatherTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29EF60F670B69D8EB1BC6FA134874D27 /* Pods-WeatherTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE4BC9045F0E14465395AF119286313 /* Build configuration list for PBXNativeTarget "Pods-WeatherTestUITests" */;
+			buildPhases = (
+				FC5609A3000E2077DBFC545724C138ED /* Headers */,
+				687777D16F2D8CABE9FA8D193C12CA3F /* Sources */,
+				3609A51698586A62CB22F4067D961524 /* Frameworks */,
+				7411FBC4F306D84DD62B119AF4472A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0A5DA10CD96368FDFE9329EDEED614 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherTestUITests";
+			productName = "Pods-WeatherTestUITests";
+			productReference = 7C1D57CF9476952F79FE314D38ECCEF2 /* Pods_WeatherTestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4869F8C34C771379A7414BBAD0C20063 /* Pods-WeatherTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DA0E149BAC808EC2AD1B9552BD671B /* Build configuration list for PBXNativeTarget "Pods-WeatherTest" */;
+			buildPhases = (
+				B37BD08429FFE4D5C2219ADF33E65E90 /* Headers */,
+				2B5DB995B28F462B88124DEC86F4DD71 /* Sources */,
+				796E145AED2F3A67D22288EE29A02CF8 /* Frameworks */,
+				38C194E2EC00717027AA3CE1B2FAD031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB6867873C7C62215B5596A76B619BE /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherTest";
+			productName = "Pods-WeatherTest";
+			productReference = 5D47AAB7631B967A03BE376D500555A2 /* Pods_WeatherTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61B070D2D10007A023FB72C1783B7FA7 /* Pods-WeatherTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCB8A41FF5F3DE74997639F803C5A /* Build configuration list for PBXNativeTarget "Pods-WeatherTestTests" */;
+			buildPhases = (
+				FEF306B7B1B215A51146D478A91E4EDA /* Headers */,
+				503A8EB64F37B8F74AC28263257FE116 /* Sources */,
+				CAFFC901F7ED86A9A5D3995CC3CA5C53 /* Frameworks */,
+				396D5A53D355283377572EB8C5FF9EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE6326ADECF54C2D00A3BDD980A8623 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherTestTests";
+			productName = "Pods-WeatherTestTests";
+			productReference = 64762E15DD7FA1ACD0B46620D7524C1D /* Pods_WeatherTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8453AA1B5E6610A222C4D387F88D218 /* SwiftDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3907CBA1939A4222522AE54AF7B6DF44 /* Build configuration list for PBXNativeTarget "SwiftDate" */;
+			buildPhases = (
+				9BCD68E45080981230F31900C79EC98B /* Headers */,
+				C0D282B857FD90CA7EB1B77266503F77 /* Sources */,
+				45F4A8EE2F7822579FC6FF2F06E92A89 /* Frameworks */,
+				0677E1BDE8D24DCF0C6F66F6D3BF9034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDate;
+			productName = SwiftDate;
+			productReference = F9C7CB30C3F60D0017B43029C610B970 /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6EF039C6B7B6CA7549D7B6623B8A1F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4869F8C34C771379A7414BBAD0C20063 /* Pods-WeatherTest */,
+				61B070D2D10007A023FB72C1783B7FA7 /* Pods-WeatherTestTests */,
+				29EF60F670B69D8EB1BC6FA134874D27 /* Pods-WeatherTestUITests */,
+				B8453AA1B5E6610A222C4D387F88D218 /* SwiftDate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0677E1BDE8D24DCF0C6F66F6D3BF9034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C194E2EC00717027AA3CE1B2FAD031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D5A53D355283377572EB8C5FF9EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7411FBC4F306D84DD62B119AF4472A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5DB995B28F462B88124DEC86F4DD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCB41C479DA23A697CA85913C152E42 /* Pods-WeatherTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503A8EB64F37B8F74AC28263257FE116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438ED2D89EED5F3DADB61B7E3532416A /* Pods-WeatherTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687777D16F2D8CABE9FA8D193C12CA3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C15FFF71C2629163EB257E6517425 /* Pods-WeatherTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D282B857FD90CA7EB1B77266503F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A35789157DE6CF9C8EA5D76184ED51F /* AssociatedValues.swift in Sources */,
+				7755A8AC8069D5E60ECD30FA36CB1178 /* Calendars.swift in Sources */,
+				8177CB232221D0019240596C41096444 /* Commons.swift in Sources */,
+				2753ECC6CE50A6AF88A62E05F9FF03FE /* Date+Compare.swift in Sources */,
+				6946EE92CC89625EE62BD7247502CE7A /* Date+Components.swift in Sources */,
+				3ED1467B5E1B325C6171D6F1CB6C61A9 /* Date+Create.swift in Sources */,
+				2A5C056798A3B87EB76E8DDFE39D5B34 /* Date+Math.swift in Sources */,
+				40CC7AA97411A78890E28DD399FAD846 /* Date.swift in Sources */,
+				1B3E9E13ADF57BC32E0F89FD0B48C39F /* DateComponents+Extras.swift in Sources */,
+				5012B7144BEFA00A41513C8B7A685468 /* DateInRegion+Compare.swift in Sources */,
+				7A8AD8AAEEBA55D543730FB2FDB0FF7A /* DateInRegion+Components.swift in Sources */,
+				34462100750C82FFAA6AB82512A9B808 /* DateInRegion+Create.swift in Sources */,
+				985D52EC455CDF54B2771BCC8A539074 /* DateInRegion+Math.swift in Sources */,
+				91A43519EA357F6C3A7717B836EAFAAE /* DateInRegion.swift in Sources */,
+				026FDB603C0A720EEE09CFFE273456F1 /* DateRepresentable.swift in Sources */,
+				616E6723C64412BD6B0D8D9E272D03F8 /* DotNetParserFormatter.swift in Sources */,
+				C299924DDB0BBA5A8EE13AE8023B89A6 /* Formatter+Protocols.swift in Sources */,
+				0B84A5413D511DD2DE62F53D854ABA50 /* Int+DateComponents.swift in Sources */,
+				E389EACA6109249886A8E9E56D5BC220 /* ISOFormatter.swift in Sources */,
+				29190972792B63358F54C964A8D6E398 /* ISOParser.swift in Sources */,
+				DC16E9B963AE3A25CF1BA89985C2C741 /* lang_af.swift in Sources */,
+				D59D8F29849222A0888CA63FDDFE36CD /* lang_am.swift in Sources */,
+				47656CC5EB02873D2F8423F3C19EA455 /* lang_ar.swift in Sources */,
+				61DDE50BB9B3E9DB08293AF97A3D4117 /* lang_ar_AE.swift in Sources */,
+				5B88E47D0E53E303C083687FA7BBC5C8 /* lang_as.swift in Sources */,
+				F0C855899BD6847DBACAD6276A1450B1 /* lang_az.swift in Sources */,
+				48652498AA2592975F35CC563DB75BEB /* lang_be.swift in Sources */,
+				23FE07173D4FE9C3E79FB4014CF8F252 /* lang_bg.swift in Sources */,
+				CE72D1E2EEB64CCCBAEDCA4B5F3231AE /* lang_bn.swift in Sources */,
+				6277655DDE21AC2E551DAEF469D4D359 /* lang_br.swift in Sources */,
+				9CB254A128EC26C94BE5D7C70134F888 /* lang_bs.swift in Sources */,
+				7E1D4D865553057858A195204C503202 /* lang_bsCyrl.swift in Sources */,
+				8FB7027EBE80E8BF2E5772ADB8114580 /* lang_ca.swift in Sources */,
+				099E26319A7A3485906F1CD41BDAB8C5 /* lang_cs.swift in Sources */,
+				9E3192BDFA85EFEFF32FE6CD824FA83D /* lang_cy.swift in Sources */,
+				C9300E894D1B8427C9F35E9E4DCCA755 /* lang_da.swift in Sources */,
+				6951B733787EAEFFEBFB1430C94269CF /* lang_de.swift in Sources */,
+				740EA39853B918E23AD23B48CCA47D60 /* lang_dsb.swift in Sources */,
+				88A4A0D9782A86E9B076E6FB81E51B05 /* lang_dz.swift in Sources */,
+				D63D3ADAD92BF0EA712A22F5F640D536 /* lang_ee.swift in Sources */,
+				C0C0E11742D87AB8C8E14CEE15FC2CD8 /* lang_el.swift in Sources */,
+				B7176BB311266F4AD477E3E379D80160 /* lang_en.swift in Sources */,
+				AF7E481DCE57994E81B999FD3539D6C7 /* lang_es.swift in Sources */,
+				E25420A0F84F03E4CCEFDE5E38EB9DCE /* lang_es_AR.swift in Sources */,
+				424E086EE5ABF3B877A457E1C1946060 /* lang_es_MX.swift in Sources */,
+				8FE0C854F3A3B35822B4C35F55E2FB59 /* lang_es_PY.swift in Sources */,
+				72B37BF2A7FDCE350A0DE46653516BF9 /* lang_es_US.swift in Sources */,
+				3FC92C89599AB6B3D085591FEE669924 /* lang_et.swift in Sources */,
+				E81978A0E31E137A338462ABD4005623 /* lang_eu.swift in Sources */,
+				9A08B74AEC3770BB23FEBD63338D8696 /* lang_fa.swift in Sources */,
+				AAEB721FFD6FBB989453286B1DD911A6 /* lang_fi.swift in Sources */,
+				856B22CFB2268E35DBA52E26E1D9B05E /* lang_fil.swift in Sources */,
+				1005AD40F9E4CF12722591CA9091B4F2 /* lang_fo.swift in Sources */,
+				7641F123EE56173B31DEF5C1978B16E7 /* lang_fr.swift in Sources */,
+				36E769A313BF723F3F94C3F43069E61B /* lang_fr_CA.swift in Sources */,
+				36DD0CB23588872E91774D1BA5C50E21 /* lang_fur.swift in Sources */,
+				0A5AF12F518DD94ED4A691E109B12842 /* lang_fy.swift in Sources */,
+				43534EB2867025604D263F1CF0E42AF2 /* lang_ga.swift in Sources */,
+				910C4F8440DE654BE94804574DC9E48F /* lang_gd.swift in Sources */,
+				E116903A657976E2C432B849F4A5E3C0 /* lang_gl.swift in Sources */,
+				34578CA48AB1EC952BD2B313BA575557 /* lang_gu.swift in Sources */,
+				185AAAB4877C0818035E4BB5BED0ACD0 /* lang_he.swift in Sources */,
+				3EC8B2F1211DD8DF4FD320DB28C7BA76 /* lang_hi.swift in Sources */,
+				88DCA092AA3AD01D7187E26F4B5F6909 /* lang_hr.swift in Sources */,
+				F1DE1330ADCF4339284CD18DD8F945B7 /* lang_hsb.swift in Sources */,
+				A0DC9C55F11587E255618D4F431D3827 /* lang_hu.swift in Sources */,
+				55AC98F7BE6A8E48679E91448F899AE9 /* lang_hy.swift in Sources */,
+				3400ACE0307C3C2FBFC92313375F4325 /* lang_id.swift in Sources */,
+				244B414AE2B40A9D19A0DF090549D1A8 /* lang_is.swift in Sources */,
+				435B90846D43B51729C8C842ED296DA4 /* lang_it.swift in Sources */,
+				1F4891E14F5B848C67FB64D89422322F /* lang_ja.swift in Sources */,
+				BB3816C4012177973AA746865778143F /* lang_jgo.swift in Sources */,
+				DA5B4D548C1DF0766B8F66C68BDF376F /* lang_ka.swift in Sources */,
+				092515C5AA6787E6122430CA6EB9AC15 /* lang_kea.swift in Sources */,
+				C5FA746CA4C419F30AA55B6B3B3E787E /* lang_kk.swift in Sources */,
+				07156419E7F0023CF6882BE85F533719 /* lang_kl.swift in Sources */,
+				99499D51C51DFD18F03333C3DEE21590 /* lang_km.swift in Sources */,
+				32588AA489E730879216950C534528B2 /* lang_kn.swift in Sources */,
+				02239E8E7F7C5CC1F24A3259BED48CBD /* lang_ko.swift in Sources */,
+				D82696C055E9B621ABB524587CDF36B2 /* lang_kok.swift in Sources */,
+				66FACFA2CB4911E7873B78222C8D52A7 /* lang_ksh.swift in Sources */,
+				CCED2826E33E59028CC9689C992A4BE2 /* lang_ky.swift in Sources */,
+				35FC5BB810183B9B49A4DB9B619F3048 /* lang_lb.swift in Sources */,
+				8FBA209FF27162B4C38DC7D3A11DD6CA /* lang_lkt.swift in Sources */,
+				9D1026C7D4FE3BA1BE2862C6EDEA2132 /* lang_lo.swift in Sources */,
+				AB28D49CEDF9A09C64EF29E0DBEC2DF2 /* lang_lt.swift in Sources */,
+				2EC9899D987321B6CDBC1FA64E52975C /* lang_lv.swift in Sources */,
+				32BA4D82FCDFC965CB229EE453D0E479 /* lang_mk.swift in Sources */,
+				D9FB76674FE2D683DB69918FE596BA5A /* lang_ml.swift in Sources */,
+				496DF2D3F301725AA0187F525299531E /* lang_mn.swift in Sources */,
+				8FE33C575AD294F65B98009A78D6E730 /* lang_mr.swift in Sources */,
+				CBD565B5515A7C25877F6CF643703139 /* lang_ms.swift in Sources */,
+				326902F0F3B0B74CB0AB9476EC8758A3 /* lang_mt.swift in Sources */,
+				21ADC130C49223F6855873AB1D63DA51 /* lang_my.swift in Sources */,
+				A1A19712CDA83A12B510B4BEF98744D5 /* lang_mzn.swift in Sources */,
+				2321DCF519CEE644F6FD7E44ACBD5A32 /* lang_nb.swift in Sources */,
+				8F48648FD3E041A6E5E9A568170F3F32 /* lang_ne.swift in Sources */,
+				AF8ACE77183E1B984736AB3A8B6E8333 /* lang_nl.swift in Sources */,
+				FEB07208D4BAC1C9FAFD96C2055EB76B /* lang_nn.swift in Sources */,
+				3556E4D57EF1D87F28B7DDE26F34541F /* lang_or.swift in Sources */,
+				2D2D6E2DDB97996685B97F266357BFA1 /* lang_pa.swift in Sources */,
+				CE2F8CB84AAD26F7275EA58AB069444B /* lang_pl.swift in Sources */,
+				DBA9FB5E33821667022FC2F24079ACDF /* lang_ps.swift in Sources */,
+				F1F057CF8B2AB4491302925D6873FD7D /* lang_pt.swift in Sources */,
+				EBDD7A36F796B5ED52A0EDD809AAFE89 /* lang_ro.swift in Sources */,
+				A736175390FFADC0D7C69EB67FC34CD2 /* lang_ru.swift in Sources */,
+				EAF203BEB3079E5BEE62752469F1FD8D /* lang_sah.swift in Sources */,
+				ABCE00EE054B68F9AE247D25B0B5761D /* lang_sd.swift in Sources */,
+				07B2ED35D6FAB10A56A247BC152A4FD7 /* lang_se.swift in Sources */,
+				F7981DDEB9C5E2F76C64C7B99F532F33 /* lang_se_FI.swift in Sources */,
+				617B9C775F04FF7E099A88372607094E /* lang_si.swift in Sources */,
+				B5CB4E3E72E5909E7F37CE162E5E8C35 /* lang_sk.swift in Sources */,
+				23B73BB407EB8B08854A01D702F3599B /* lang_sl.swift in Sources */,
+				E703308F83F31387D41E5A3E3CEDF6BD /* lang_sq.swift in Sources */,
+				65EB4D4D2465A234CE624FC1249CA3F9 /* lang_sr.swift in Sources */,
+				A3D3E27F4D5EBC2AB19A80D5D718CB56 /* lang_sr_Latn.swift in Sources */,
+				E501067B19F134EC0A79D8809B8F5787 /* lang_sv.swift in Sources */,
+				DC68FC168BC815C021DC8629CAE7438E /* lang_sw.swift in Sources */,
+				2558C8D20F38CBB0E5020E0C82E51FBA /* lang_ta.swift in Sources */,
+				D12176F03F9F2EC26539E9D74E7EBD3D /* lang_te.swift in Sources */,
+				AEB7E5E528382E9A41C842E5A58E30DC /* lang_th.swift in Sources */,
+				77450D1AD0F0FED9293C3106B7E83E98 /* lang_ti.swift in Sources */,
+				10F4B17219C0A585D11F4042774755F4 /* lang_tk.swift in Sources */,
+				CCAD7F90EEF468ACD00ABE3B648E25B4 /* lang_to.swift in Sources */,
+				98F4ABEF95769D0A5DB5BDC393194746 /* lang_tr.swift in Sources */,
+				087C14F286EF1FCD62F5B8D65A53500D /* lang_ug.swift in Sources */,
+				0ACB42F0DFC5BAE7E45B6F8AC47D9270 /* lang_uk.swift in Sources */,
+				EF48DDED09C95552C70520DC9371978B /* lang_ur.swift in Sources */,
+				E461151B2106001567899E19CAAFA56A /* lang_ur_IN.swift in Sources */,
+				2CC0925922EEC1ECA18A3998B14510F5 /* lang_uz.swift in Sources */,
+				48C3A15D9F3873D915ACBF60497C4B73 /* lang_uz_Cyrl.swift in Sources */,
+				4DC3E5EFA96A41E5E2C6DE3B4A855786 /* lang_vi.swift in Sources */,
+				86CC17C37B0BA785CA926CA4DE112206 /* lang_wae.swift in Sources */,
+				A3CE89CE01E1C2C751015E6B3285AA15 /* lang_yi.swift in Sources */,
+				B192D04945839BBE4EC701636BC6C660 /* lang_yue_Hans.swift in Sources */,
+				8F35CD0F9F79974890FA149F47FF23DA /* lang_yue_Hant.swift in Sources */,
+				4ED2E9280F35857F23C4D9D8CFDF3194 /* lang_zh.swift in Sources */,
+				D3508383AC2C99B56E4C45D1DDA9A4EF /* lang_zh_Hans_HK.swift in Sources */,
+				4564C8550AF2615C6075F00B8ECA6AF8 /* lang_zh_Hans_MO.swift in Sources */,
+				30B128C5467DFCE52C23752A0A3EE9A5 /* lang_zh_Hans_SG.swift in Sources */,
+				0B02549CDCE1468C19ADE1B0F7553B18 /* lang_zh_Hant.swift in Sources */,
+				FD88E568A0DA20CC27F8754194AF4440 /* lang_zh_Hant_HK.swift in Sources */,
+				885129ECB8CDBE868FDDFECD264D21EC /* lang_zh_Hant_MO.swift in Sources */,
+				D335B43030578D0A5AA3EAEFB7E4D850 /* lang_zu.swift in Sources */,
+				D0D95FCFA5A21D8D3E2FDF8AAA0D442F /* Locales.swift in Sources */,
+				8297CE74E3B23B32244B2F78FB2F1C75 /* Region.swift in Sources */,
+				4C282CD194A0BEB906AE200FEA87A1DF /* RelativeFormatter+Style.swift in Sources */,
+				4651D9232F576A4F030DB7D684C9CA4B /* RelativeFormatter.swift in Sources */,
+				370A43E18E3985C4C33229C3FF27228B /* String+Parser.swift in Sources */,
+				9CA2D134B6CF95FA8D1E73055E03D68C /* SwiftDate-dummy.m in Sources */,
+				C0CD161E05D1F11B6D37AEEF8746F371 /* SwiftDate.swift in Sources */,
+				9EA6B7CE827246A639B762E5270754AB /* TimeInterval+Formatter.swift in Sources */,
+				9A077D65BD19A922F2E30C88C091014C /* TimePeriod+Support.swift in Sources */,
+				BEF44160860E199F6E816042A4DA106E /* TimePeriod.swift in Sources */,
+				7CBCB138E23AB1A681E2E7B2A86E0BB0 /* TimePeriodChain.swift in Sources */,
+				FBC8D4E6A96E7BA38D55175BA383E54A /* TimePeriodCollection.swift in Sources */,
+				413C8EFC0263184F7E93DDB254A4FFAD /* TimePeriodGroup.swift in Sources */,
+				72682C544763209D0DE35C578671F4C5 /* TimePeriodProtocol.swift in Sources */,
+				E8842B9B01644309F2EAC8E0250EC94C /* TimeStructures.swift in Sources */,
+				0DCFBCC3553DDACA3B3C8F74B3939285 /* Zones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DE6326ADECF54C2D00A3BDD980A8623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeatherTest";
+			target = 4869F8C34C771379A7414BBAD0C20063 /* Pods-WeatherTest */;
+			targetProxy = 4B31FD85BD5FD6A46EB400D4FA33F878 /* PBXContainerItemProxy */;
+		};
+		5A0A5DA10CD96368FDFE9329EDEED614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeatherTest";
+			target = 4869F8C34C771379A7414BBAD0C20063 /* Pods-WeatherTest */;
+			targetProxy = AA0BB785B4F1C46797CAA01FB16D0A6D /* PBXContainerItemProxy */;
+		};
+		EEB6867873C7C62215B5596A76B619BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDate;
+			target = B8453AA1B5E6610A222C4D387F88D218 /* SwiftDate */;
+			targetProxy = AD078BD017B07E3E6BB92A57085B3444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		77402BEC06A7705A0E3AAAC5B9C75209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F541F89234CD8EF748C41592B5BA9937 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/SwiftDate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8135424222B749C52B5202458B855D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F299E39BF2AB8E652E97E93105424102 /* Pods-WeatherTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherTestTests/Pods-WeatherTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherTestTests/Pods-WeatherTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95F099EAAE81DD1F615F6DE99C52A743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375AA0E95C5D932BE15B4F908279AD21 /* Pods-WeatherTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherTestUITests/Pods-WeatherTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherTestUITests/Pods-WeatherTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9723DCFD45B8429C6B964127175F6B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F541F89234CD8EF748C41592B5BA9937 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/SwiftDate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D1CB49A46946E09678A9FA3B51FAE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E18E6F5C488EFA52FAF1C4DBA99DB5 /* Pods-WeatherTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherTestTests/Pods-WeatherTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherTestTests/Pods-WeatherTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A57267E659236CA6391A81AC734BCE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23F8917DCBEB8CD23A4F7208F1B1212 /* Pods-WeatherTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherTest/Pods-WeatherTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherTest/Pods-WeatherTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC129DB8CD33C4DCE006B52B571F2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87825E5A5E85A97313393B45337516A3 /* Pods-WeatherTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherTest/Pods-WeatherTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherTest/Pods-WeatherTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D85280C7531AAC274A89BB85AF70C623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE9BFDA7586BE7E2330EDFE92A04174 /* Pods-WeatherTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherTestUITests/Pods-WeatherTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherTestUITests/Pods-WeatherTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3907CBA1939A4222522AE54AF7B6DF44 /* Build configuration list for PBXNativeTarget "SwiftDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9723DCFD45B8429C6B964127175F6B23 /* Debug */,
+				77402BEC06A7705A0E3AAAC5B9C75209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE4BC9045F0E14465395AF119286313 /* Build configuration list for PBXNativeTarget "Pods-WeatherTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F099EAAE81DD1F615F6DE99C52A743 /* Debug */,
+				D85280C7531AAC274A89BB85AF70C623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCB8A41FF5F3DE74997639F803C5A /* Build configuration list for PBXNativeTarget "Pods-WeatherTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1CB49A46946E09678A9FA3B51FAE24 /* Debug */,
+				8135424222B749C52B5202458B855D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DA0E149BAC808EC2AD1B9552BD671B /* Build configuration list for PBXNativeTarget "Pods-WeatherTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC129DB8CD33C4DCE006B52B571F2BF3 /* Debug */,
+				A57267E659236CA6391A81AC734BCE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
