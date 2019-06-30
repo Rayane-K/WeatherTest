@@ -8,8 +8,20 @@
 
 import Foundation
 
+enum State {
+    case success
+    case loading
+    case error(Error)
+}
+
 struct HomeViewModel {
     var dates: [WeatherDateViewModel] = []
     
+    var stateDidChange: ((State) -> Void)?
     
+    let api = WeatherAPI()
+    
+    func fetch() {
+        
+    }
 }
