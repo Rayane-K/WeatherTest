@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WeatherInfoCollectionViewCell" customModule="WeatherTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="274"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="274"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5f-rm-SBS">
+                        <rect key="frame" x="0.0" y="44" width="365" height="196"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0Jb-nG-5Os">
+                                <rect key="frame" x="0.0" y="0.0" width="365" height="61.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv9-fQ-PPu">
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EU4-BY-f0r">
+                                        <rect key="frame" x="0.0" y="20.5" width="365" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLH-Te-DSM">
+                                        <rect key="frame" x="0.0" y="41" width="365" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0Jb-nG-5Os" firstAttribute="top" secondItem="c5f-rm-SBS" secondAttribute="top" id="QuF-Sz-IF5"/>
+                            <constraint firstItem="0Jb-nG-5Os" firstAttribute="leading" secondItem="c5f-rm-SBS" secondAttribute="leading" id="ge8-bd-uZT"/>
+                            <constraint firstAttribute="trailing" secondItem="0Jb-nG-5Os" secondAttribute="trailing" id="p8x-jF-P2B"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0Jb-nG-5Os" secondAttribute="bottom" id="sR0-k0-d2P"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="c5f-rm-SBS" secondAttribute="bottom" id="ISK-Cq-QoG"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="c5f-rm-SBS" secondAttribute="top" id="LBf-pP-ICa"/>
+                <constraint firstItem="c5f-rm-SBS" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="Ocg-ad-BC2"/>
+                <constraint firstItem="c5f-rm-SBS" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="wdo-Ei-sq9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="365" height="274"/>
+            <connections>
+                <outlet property="hourLabel" destination="gv9-fQ-PPu" id="rX7-i4-eb7"/>
+                <outlet property="pressionLabel" destination="nLH-Te-DSM" id="xMj-br-dl6"/>
+                <outlet property="temperatureLabel" destination="EU4-BY-f0r" id="Fbg-ha-tth"/>
+            </connections>
+            <point key="canvasLocation" x="34.057971014492757" y="219.64285714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

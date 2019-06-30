@@ -12,7 +12,8 @@ import UIKit
 extension HomeViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let viewModel = self.viewModel.dates[indexPath.row]
-        let controller = DetailViewController()
+        let weatherDay = WeatherDay(date: viewModel.date, weatherInfos: self.viewModel.dates)
+        let controller = DetailViewController(weatherDay: weatherDay)
         self.navigationController?.pushViewController(controller, animated: true)
     }
 }

@@ -10,13 +10,23 @@ import UIKit
 
 class DetailViewController: UIViewController {
     let viewModel: DetailViewModel
-
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
         
+        collectionView.register(UINib(nibName: WeatherInfoCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: WeatherInfoCollectionViewCell.identifier)
     }
     
+    init(weatherDay: WeatherDay) {
+        viewModel = DetailViewModel(weatherDay: weatherDay)
+        super.init(nibName: nil, bundle: Bundle.main)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     private func setup() {
         title = "Weather Detail"
     }
