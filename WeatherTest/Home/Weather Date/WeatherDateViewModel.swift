@@ -10,4 +10,5 @@ import Foundation
 
 struct WeatherDateViewModel {
     let date: Date
+    let weatherDate: WeatherDate
 }

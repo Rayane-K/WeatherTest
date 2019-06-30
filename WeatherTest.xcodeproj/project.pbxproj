@@ -24,6 +24,9 @@
 		D1B9F8DD22C93025000A8580 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B9F8DC22C93025000A8580 /* HomeViewController.xib */; };
 		D1B9F8E022C93246000A8580 /* WeatherDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9F8DE22C93246000A8580 /* WeatherDateTableViewCell.swift */; };
 		D1B9F8E122C93246000A8580 /* WeatherDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B9F8DF22C93246000A8580 /* WeatherDateTableViewCell.xib */; };
+		D1B9F8E622C938AB000A8580 /* WeatherDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9F8E522C938AB000A8580 /* WeatherDate.swift */; };
+		D1B9F8E822C93FFE000A8580 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9F8E722C93FFE000A8580 /* WeatherResponse.swift */; };
+		D1B9F8EB22C94F11000A8580 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B9F8EA22C94F11000A8580 /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		D1B9F8DC22C93025000A8580 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		D1B9F8DE22C93246000A8580 /* WeatherDateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDateTableViewCell.swift; sourceTree = "<group>"; };
 		D1B9F8DF22C93246000A8580 /* WeatherDateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDateTableViewCell.xib; sourceTree = "<group>"; };
+		D1B9F8E522C938AB000A8580 /* WeatherDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDate.swift; sourceTree = "<group>"; };
+		D1B9F8E722C93FFE000A8580 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		D1B9F8EA22C94F11000A8580 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		FC19EC76C78CE5AA5853307C /* Pods_WeatherTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +146,8 @@
 			children = (
 				D15E303E22C9189900170B69 /* AppDelegate.swift */,
 				D15E307122C92B9300170B69 /* WeatherAPI.swift */,
+				D1B9F8E922C94EFD000A8580 /* Extensions */,
+				D1B9F8E422C9387A000A8580 /* Model */,
 				D15E306C22C9197500170B69 /* Home */,
 				D15E304522C9189A00170B69 /* Assets.xcassets */,
 				D15E304722C9189A00170B69 /* LaunchScreen.storyboard */,
@@ -203,6 +211,23 @@
 				D15E306F22C919C800170B69 /* HomeViewController+Delegate.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1B9F8E422C9387A000A8580 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9F8E522C938AB000A8580 /* WeatherDate.swift */,
+				D1B9F8E722C93FFE000A8580 /* WeatherResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1B9F8E922C94EFD000A8580 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9F8EA22C94F11000A8580 /* DateFormatter.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D3F0F80C42FAE056F2AFD663 /* Pods */ = {
@@ -448,12 +473,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15E304122C9189900170B69 /* HomeViewController.swift in Sources */,
+				D1B9F8E822C93FFE000A8580 /* WeatherResponse.swift in Sources */,
 				D1B9F8DB22C92E34000A8580 /* WeatherDateViewModel.swift in Sources */,
 				D1B9F8E022C93246000A8580 /* WeatherDateTableViewCell.swift in Sources */,
 				D1B9F8D822C92DDB000A8580 /* HomeViewModel.swift in Sources */,
+				D1B9F8EB22C94F11000A8580 /* DateFormatter.swift in Sources */,
 				D15E303F22C9189900170B69 /* AppDelegate.swift in Sources */,
 				D15E307222C92B9300170B69 /* WeatherAPI.swift in Sources */,
 				D15E307022C919C800170B69 /* HomeViewController+Delegate.swift in Sources */,
+				D1B9F8E622C938AB000A8580 /* WeatherDate.swift in Sources */,
 				D15E306E22C919AB00170B69 /* HomeViewController+Datasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

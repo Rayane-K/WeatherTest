@@ -14,7 +14,7 @@ enum State {
     case error(Error)
 }
 
-struct HomeViewModel {
+class HomeViewModel {
     var dates: [WeatherDateViewModel] = []
     
     var stateDidChange: ((State) -> Void)?
@@ -22,6 +22,19 @@ struct HomeViewModel {
     let api = WeatherAPI()
     
     func fetch() {
-        api.fetchWeatherFromApi()
+        api.fetchWeatherFromApi(completion: { response in
+            self.dates = self.getWeatherDates(from: response)
+            self.stateDidChange?(.success)
+        }, error: { error in
+            self.stateDidChange?(.error(error))
+        })
+    }
+    
+    
+    private func getWeatherDates(from dictionary: [String: WeatherDate]) -> [WeatherDateViewModel] {
+        return dictionary.compactMap { weatherRow -> WeatherDateViewModel? in
+            guard let date = DateFormatter.weatherFormatter.date(from: weatherRow.key) else { return nil }
+            return WeatherDateViewModel(date: date, weatherDate: weatherRow.value)
+        }
     }
 }

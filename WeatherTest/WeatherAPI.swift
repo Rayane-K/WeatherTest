@@ -14,9 +14,21 @@ struct WeatherAPI {
     
     private static let sessionManager = Alamofire.SessionManager.default
     
-    func fetchWeatherFromApi() {
+    typealias WeatherResponse = [String: WeatherDate]
+    func fetchWeatherFromApi(completion: @escaping ((WeatherResponse) -> Void), error: @escaping ((Error) -> Void)) {
         WeatherAPI.sessionManager.request(WeatherAPI.apiUrl).responseJSON { response in
-            print(response)
+            do {
+                guard let json = response.result.value as? NSDictionary else { return }
+                let dic = NSMutableDictionary(dictionary: json)
+                dic.removeObjects(forKeys: ["model_run", "request_key", "request_state", "source", "message"])
+                let data = try JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted)
+                let decoder = JSONDecoder()
+                let model = try decoder.decode([String: WeatherDate].self, from: data)
+                completion(model)
+            } catch let parsingError {
+                print("Error", parsingError)
+                error(parsingError)
+            }
         }
     }
 }
