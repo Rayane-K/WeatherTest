@@ -16,7 +16,10 @@ extension HomeViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: WeatherDateTableViewCell.identifier, for: indexPath) as? WeatherDateTableViewCell else { return UITableViewCell() }
+        let viewModel = self.viewModel.dates[indexPath.row]
+        cell.update(with: viewModel)
+        return cell
     }
     
     

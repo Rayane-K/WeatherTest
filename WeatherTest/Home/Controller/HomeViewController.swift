@@ -28,6 +28,8 @@ class HomeViewController: UIViewController {
         
         viewModel.stateDidChange = stateDidChange
         viewModel.fetch()
+        
+        tableView.register(UINib(nibName: WeatherDateTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: WeatherDateTableViewCell.identifier)
     }
     
     private func stateDidChange(_ state: State) {
