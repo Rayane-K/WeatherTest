@@ -1,16 +1,20 @@
 PODS:
+  - Alamofire (4.8.2)
   - SwiftDate (5.1.0)
 
 DEPENDENCIES:
+  - Alamofire
   - SwiftDate (= 5.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - SwiftDate
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
 
-PODFILE CHECKSUM: 47f7f7a895b4e6d1d3db7a75f071fe58da098c4f
+PODFILE CHECKSUM: 6ba41bc0aaea953102fc57be1d02da3cc8e8ac18
 
 COCOAPODS: 1.6.1
