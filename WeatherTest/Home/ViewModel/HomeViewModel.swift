@@ -22,6 +22,6 @@ struct HomeViewModel {
     let api = WeatherAPI()
     
     func fetch() {
-        
+        api.fetchWeatherFromApi()
     }
 }

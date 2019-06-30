@@ -170,11 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				D1B9F8D922C92E1C000A8580 /* Weather Date */,
-				D15E304022C9189900170B69 /* HomeViewController.swift */,
-				D1B9F8DC22C93025000A8580 /* HomeViewController.xib */,
-				D15E306D22C919AB00170B69 /* HomeViewController+Datasource.swift */,
-				D15E306F22C919C800170B69 /* HomeViewController+Delegate.swift */,
-				D1B9F8D722C92DDB000A8580 /* HomeViewModel.swift */,
+				D1B9F8E222C936BC000A8580 /* ViewModel */,
+				D1B9F8E322C936C6000A8580 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -187,6 +184,25 @@
 				D1B9F8DF22C93246000A8580 /* WeatherDateTableViewCell.xib */,
 			);
 			path = "Weather Date";
+			sourceTree = "<group>";
+		};
+		D1B9F8E222C936BC000A8580 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9F8D722C92DDB000A8580 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1B9F8E322C936C6000A8580 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D15E304022C9189900170B69 /* HomeViewController.swift */,
+				D1B9F8DC22C93025000A8580 /* HomeViewController.xib */,
+				D15E306D22C919AB00170B69 /* HomeViewController+Datasource.swift */,
+				D15E306F22C919C800170B69 /* HomeViewController+Delegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D3F0F80C42FAE056F2AFD663 /* Pods */ = {
