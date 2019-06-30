@@ -25,6 +25,7 @@ class HomeViewModel {
         api.fetchWeatherFromApi(completion: { response in
             self.dates = self.getWeatherDates(from: response)
             self.stateDidChange?(.success)
+//            self.persistData()
         }, error: { error in
             self.stateDidChange?(.error(error))
         })
@@ -37,4 +38,9 @@ class HomeViewModel {
             return WeatherDateViewModel(date: date, weatherDate: weatherRow.value)
         }
     }
+    
+//    private func persistData() {
+//        let model = WeatherModel(days: ["test"])
+//        WeatherStoreManager.saveData(model: model)
+//    }
 }

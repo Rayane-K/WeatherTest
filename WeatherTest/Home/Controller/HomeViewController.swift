@@ -26,10 +26,15 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setup()
         viewModel.stateDidChange = stateDidChange
         viewModel.fetch()
         
         tableView.register(UINib(nibName: WeatherDateTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: WeatherDateTableViewCell.identifier)
+    }
+    
+    private func setup() {
+        title = "Weather next days"
     }
     
     private func stateDidChange(_ state: State) {
