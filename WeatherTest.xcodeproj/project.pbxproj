@@ -42,6 +42,7 @@
 		D1F4D9FD22CA28200019D5ED /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4D9FC22CA281F0019D5ED /* Temperature.swift */; };
 		D1F4DA0022CA285B0019D5ED /* Humidity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4D9FF22CA285B0019D5ED /* Humidity.swift */; };
 		D1F4DA0222CA28A70019D5ED /* Pression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4DA0122CA28A70019D5ED /* Pression.swift */; };
+		D1F4DA0422CA29AC0019D5ED /* HomeViewController+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4DA0322CA29AC0019D5ED /* HomeViewController+Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		D1F4D9FC22CA281F0019D5ED /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		D1F4D9FF22CA285B0019D5ED /* Humidity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humidity.swift; sourceTree = "<group>"; };
 		D1F4DA0122CA28A70019D5ED /* Pression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pression.swift; sourceTree = "<group>"; };
+		D1F4DA0322CA29AC0019D5ED /* HomeViewController+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Location.swift"; sourceTree = "<group>"; };
 		FC19EC76C78CE5AA5853307C /* Pods_WeatherTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -239,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				D15E304022C9189900170B69 /* HomeViewController.swift */,
+				D1F4DA0322CA29AC0019D5ED /* HomeViewController+Location.swift */,
 				D1B9F8DC22C93025000A8580 /* HomeViewController.xib */,
 				D15E306D22C919AB00170B69 /* HomeViewController+Datasource.swift */,
 				D15E306F22C919C800170B69 /* HomeViewController+Delegate.swift */,
@@ -606,6 +609,7 @@
 				D1F4DA0022CA285B0019D5ED /* Humidity.swift in Sources */,
 				D15E307022C919C800170B69 /* HomeViewController+Delegate.swift in Sources */,
 				D1B9F8F922C96839000A8580 /* DetailViewModel.swift in Sources */,
+				D1F4DA0422CA29AC0019D5ED /* HomeViewController+Location.swift in Sources */,
 				D1B9F8E622C938AB000A8580 /* WeatherDate.swift in Sources */,
 				D1B9F8ED22C959E9000A8580 /* WeatherStoreManager.swift in Sources */,
 				D1B9F8F022C96325000A8580 /* WeatherModel.swift in Sources */,

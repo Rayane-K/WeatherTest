@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import CoreLocation
 
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     var viewModel: HomeViewModel
+    let locationManager = CLLocationManager()
+
     
     
     init() {
@@ -35,6 +38,14 @@ class HomeViewController: UIViewController {
     
     private func setup() {
         title = "Weather next days"
+        // For use in foreground
+        self.locationManager.requestWhenInUseAuthorization()
+        
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.startUpdatingLocation()
+        }
     }
     
     private func stateDidChange(_ state: State) {
