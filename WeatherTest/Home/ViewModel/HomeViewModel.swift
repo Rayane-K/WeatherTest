@@ -14,8 +14,18 @@ enum State {
     case error(Error)
 }
 
+typealias WeatherDay = (day: Date, weatherInfos: [WeatherInfoViewModel])
+struct ResponseViewModel {
+    let week: [WeatherDay]
+    
+    var dayTitle: String? {
+        guard let day = week.first?.day else { return nil }
+        return DateFormatter.weatherTextFormatter.string(from: day)
+    }
+}
+
 class HomeViewModel {
-    var dates: [WeatherDateViewModel] = []
+    var response: ResponseViewModel = ResponseViewModel(week: [])
     
     var stateDidChange: ((State) -> Void)?
     
@@ -23,7 +33,7 @@ class HomeViewModel {
     
     func fetch() {
         api.fetchWeatherFromApi(completion: { response in
-            self.dates = self.getWeatherDates(from: response)
+            self.response = self.getResponseViewModel(from: self.getWeatherInfos(from: response))
             self.stateDidChange?(.success)
 //            self.persistData()
         }, error: { error in
@@ -32,10 +42,23 @@ class HomeViewModel {
     }
     
     
-    private func getWeatherDates(from dictionary: [String: WeatherDate]) -> [WeatherDateViewModel] {
-        return dictionary.compactMap { weatherRow -> WeatherDateViewModel? in
+    private func getResponseViewModel(from weatherInfos: [WeatherInfoViewModel]) -> ResponseViewModel {
+        let days = Set(weatherInfos.map { DateFormatter.weatherTextFormatter.string(from: $0.date) })
+        
+        let week = days.compactMap { day -> WeatherDay? in
+            guard let date = DateFormatter.weatherTextFormatter.date(from: day) else { return nil }
+            let infos = weatherInfos.filter { DateFormatter.weatherTextFormatter.string(from: $0.date) == day }
+            return WeatherDay(day: date, weatherInfos: infos)
+        }
+        
+        return ResponseViewModel(week: week)
+    }
+    
+    
+    private func getWeatherInfos(from dictionary: [String: WeatherDate]) -> [WeatherInfoViewModel] {
+        return dictionary.compactMap { weatherRow -> WeatherInfoViewModel? in
             guard let date = DateFormatter.weatherFormatter.date(from: weatherRow.key) else { return nil }
-            return WeatherDateViewModel(date: date, weatherDate: weatherRow.value)
+            return WeatherInfoViewModel(date: date, weatherDate: weatherRow.value)
         }
     }
     

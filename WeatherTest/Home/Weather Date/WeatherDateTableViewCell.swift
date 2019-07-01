@@ -17,7 +17,7 @@ class WeatherDateTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    func update(with viewModel: WeatherDateViewModel) {
-        self.label.text = DateFormatter.weatherTextFormatter.string(from: viewModel.date)
+    func update(with viewModel: WeatherDay) {
+        self.label.text = DateFormatter.weatherTextFormatter.string(from: viewModel.day)
     }
 }

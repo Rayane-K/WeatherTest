@@ -11,13 +11,13 @@ import Foundation
 
 extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.dates.count
+        return viewModel.response.week.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: WeatherDateTableViewCell.identifier, for: indexPath) as? WeatherDateTableViewCell
             else { return UITableViewCell() }
-        let viewModel = self.viewModel.dates[indexPath.row]
+        let viewModel = self.viewModel.response.week[indexPath.row]
         cell.update(with: viewModel)
         return cell
     }

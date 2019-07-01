@@ -8,11 +8,6 @@
 
 import Foundation
 
-struct WeatherModel: Codable {
-    let days: [WeatherDay]
-}
-
-struct WeatherDay: Codable {
-    let date: Date
-    let weatherInfos: [WeatherDateViewModel]
-}
+//struct WeatherModel: Codable {
+//    let days: [WeatherDay]
+//}

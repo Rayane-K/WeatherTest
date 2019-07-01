@@ -19,7 +19,7 @@ class WeatherInfoCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
     
-    func update(with viewModel: WeatherDateViewModel) {
+    func update(with viewModel: WeatherInfoViewModel) {
         self.hourLabel.text = DateFormatter.hourFormatter.string(from: viewModel.date)
         self.temperatureLabel.text = "\(viewModel.weatherDate.temperature.twoMeters.kelvinToCelsius) Celsius degrees"
         self.pressionLabel.text = "\(viewModel.weatherDate.pression.seaLevel) pascal"

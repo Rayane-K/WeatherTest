@@ -1,5 +1,5 @@
 //
-//  WeatherDateViewModel.swift
+//  WeatherInfoViewModel.swift
 //  WeatherTest
 //
 //  Created by Kurrimboccus Rayane on 30/06/2019.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct WeatherDateViewModel: Codable {
+struct WeatherInfoViewModel: Codable {
     let date: Date
     let weatherDate: WeatherDate
 }
