@@ -16,6 +16,7 @@ enum State {
 }
 
 typealias WeatherDay = (day: Date, weatherInfos: [WeatherInfoViewModel])
+
 struct ResponseViewModel {
     let week: [WeatherDay]
 }
@@ -34,17 +35,25 @@ class HomeViewModel {
         }
     }
     
+    /*
+     Fetch new weather informations from API
+     */
     func fetch() {
+        // print(WeatherStoreManager.loadItems()) // Not enough time to solve this problem : loading data from disk is not working
         api.fetchWeatherFromApi(completion: { response in
-            self.response = self.getResponseViewModel(from: self.getWeatherInfos(from: response))
+            let weatherInfoViewModels = self.getWeatherInfos(from: response)
+            self.response = self.getResponseViewModel(from: weatherInfoViewModels)
             self.stateDidChange?(.success)
-//            self.persistData()
+            self.persistData(weatherInfoViewModels)
         }, error: { error in
             self.stateDidChange?(.error(error))
         })
     }
     
     
+    /*
+     Returns a list of days with multiple hours weather info for each day, sorted
+     */
     func getResponseViewModel(from weatherInfos: [WeatherInfoViewModel]) -> ResponseViewModel {
         let days = Set(weatherInfos.map { DateFormatter.weatherTextFormatter.string(from: $0.date) }).sorted()
         
@@ -57,7 +66,9 @@ class HomeViewModel {
         return ResponseViewModel(week: week)
     }
     
-    
+    /*
+     Returns a list of weather information from the response list
+     */
     func getWeatherInfos(from dictionary: [String: WeatherDate]) -> [WeatherInfoViewModel] {
         return dictionary.compactMap { weatherRow -> WeatherInfoViewModel? in
             guard let date = DateFormatter.weatherFormatter.date(from: weatherRow.key) else { return nil }
@@ -65,8 +76,10 @@ class HomeViewModel {
             }.sorted { $0.date < $1.date }
     }
     
-//    private func persistData() {
-//        let model = WeatherModel(days: ["test"])
-//        WeatherStoreManager.saveData(model: model)
-//    }
+    /*
+     Save weather info lcoally to be able to access it offline
+     */
+    private func persistData(_ weatherInfoViewModels: [WeatherInfoViewModel]) {
+        WeatherStoreManager.saveData(viewModels: weatherInfoViewModels)
+    }
 }

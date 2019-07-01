@@ -48,6 +48,9 @@ class HomeViewController: UIViewController {
         }
     }
     
+    /*
+     Fetch has finished : state has changed
+     */
     private func stateDidChange(_ state: State) {
         tableView.reloadData()
     }
