@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
     let viewModel: DetailViewModel
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,7 @@ class DetailViewController: UIViewController {
     }
     private func setup() {
         title = "Weather Detail"
+        titleLabel.text = viewModel.titleLabel
     }
     
 

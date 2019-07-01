@@ -11,13 +11,18 @@ import UIKit
 class WeatherDateTableViewCell: UITableViewCell {
     static let identifier = String(describing: WeatherDateTableViewCell.self)
 
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var daylabel: UILabel!
+    @IBOutlet weak var temperatureLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
     func update(with viewModel: WeatherDay) {
-        self.label.text = DateFormatter.weatherTextFormatter.string(from: viewModel.day)
+        self.daylabel.text = DateFormatter.weatherTextFormatter.string(from: viewModel.day)
+        if let temperature = viewModel.weatherInfos.first?.weatherDate.temperature.twoMeters.kelvinToCelsius {
+            self.temperatureLabel.text = "\(temperature)°C"
+        }
+        
     }
 }

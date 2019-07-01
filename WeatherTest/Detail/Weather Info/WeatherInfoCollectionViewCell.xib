@@ -23,22 +23,22 @@
                         <rect key="frame" x="0.0" y="44" width="365" height="196"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0Jb-nG-5Os">
-                                <rect key="frame" x="0.0" y="0.0" width="365" height="61.5"/>
+                                <rect key="frame" x="147" y="59.5" width="71" height="77"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv9-fQ-PPu">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EU4-BY-f0r">
-                                        <rect key="frame" x="0.0" y="20.5" width="365" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="36" width="71" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLH-Te-DSM">
-                                        <rect key="frame" x="0.0" y="41" width="365" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="56.5" width="71" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -48,10 +48,8 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="0Jb-nG-5Os" firstAttribute="top" secondItem="c5f-rm-SBS" secondAttribute="top" id="QuF-Sz-IF5"/>
-                            <constraint firstItem="0Jb-nG-5Os" firstAttribute="leading" secondItem="c5f-rm-SBS" secondAttribute="leading" id="ge8-bd-uZT"/>
-                            <constraint firstAttribute="trailing" secondItem="0Jb-nG-5Os" secondAttribute="trailing" id="p8x-jF-P2B"/>
-                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0Jb-nG-5Os" secondAttribute="bottom" id="sR0-k0-d2P"/>
+                            <constraint firstItem="0Jb-nG-5Os" firstAttribute="centerY" secondItem="c5f-rm-SBS" secondAttribute="centerY" id="c4v-CD-CYf"/>
+                            <constraint firstItem="0Jb-nG-5Os" firstAttribute="centerX" secondItem="c5f-rm-SBS" secondAttribute="centerX" id="rIA-ZO-fsO"/>
                         </constraints>
                     </view>
                 </subviews>

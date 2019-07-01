@@ -17,12 +17,15 @@ class WeatherInfoCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.lightGray.cgColor
+        layer.cornerRadius = 10
     }
     
     func update(with viewModel: WeatherInfoViewModel) {
         self.hourLabel.text = DateFormatter.hourFormatter.string(from: viewModel.date)
         self.temperatureLabel.text = "\(viewModel.weatherDate.temperature.twoMeters.kelvinToCelsius) Celsius degrees"
-        self.pressionLabel.text = "\(viewModel.weatherDate.pression.seaLevel) pascal"
+        self.pressionLabel.text = "\(Int(viewModel.weatherDate.pression.seaLevel)) pascal"
     }
 
 }
