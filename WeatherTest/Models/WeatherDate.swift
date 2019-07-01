@@ -9,10 +9,29 @@
 import Foundation
 
 struct WeatherDate : Codable, Equatable {
+    /*
+     Temperature
+     */
     let temperature: Temperature
+    
+    /*
+     Precipitations on 3 hours (mm)
+     */
     let rain: Double
+    
+    /*
+     Relative humidity
+     */
     let humidity: Humidity
+    
+    /*
+     Pression at sea level
+     */
     let pression: Pression
+    
+    /*
+     Snow likelihood
+     */
     let snowRisk: Bool
     
     enum CodingKeys: String, CodingKey {
@@ -51,31 +70,4 @@ struct WeatherDate : Codable, Equatable {
         self.snowRisk = snowRisk
     }
     
-}
-
-struct Temperature: Codable, Equatable {
-    let twoMeters: Double
-    let ground: Double
-    
-    
-    enum CodingKeys: String, CodingKey {
-        case twoMeters = "2m"
-        case ground = "sol"
-    }
-}
-
-struct Humidity: Codable, Equatable {
-    let twoMeters: Double
-    
-    enum CodingKeys: String, CodingKey {
-        case twoMeters = "2m"
-    }
-}
-
-struct Pression: Codable, Equatable {
-    let seaLevel: Double
-    
-    enum CodingKeys: String, CodingKey {
-        case seaLevel = "niveau_de_la_mer"
-    }
 }

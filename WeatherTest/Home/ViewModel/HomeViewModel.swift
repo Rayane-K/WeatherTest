@@ -54,7 +54,7 @@ class HomeViewModel {
         return dictionary.compactMap { weatherRow -> WeatherInfoViewModel? in
             guard let date = DateFormatter.weatherFormatter.date(from: weatherRow.key) else { return nil }
             return WeatherInfoViewModel(date: date, weatherDate: weatherRow.value)
-        }
+            }.sorted { $0.date < $1.date }
     }
     
 //    private func persistData() {

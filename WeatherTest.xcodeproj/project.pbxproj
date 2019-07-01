@@ -39,6 +39,9 @@
 		D1F4D9F422CA15C80019D5ED /* Doubletests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4D9F322CA15C80019D5ED /* Doubletests.swift */; };
 		D1F4D9F822CA17A30019D5ED /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4D9F722CA17A30019D5ED /* HomeViewModelTests.swift */; };
 		D1F4D9FB22CA18090019D5ED /* WeatherFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4D9FA22CA18090019D5ED /* WeatherFixtures.swift */; };
+		D1F4D9FD22CA28200019D5ED /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4D9FC22CA281F0019D5ED /* Temperature.swift */; };
+		D1F4DA0022CA285B0019D5ED /* Humidity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4D9FF22CA285B0019D5ED /* Humidity.swift */; };
+		D1F4DA0222CA28A70019D5ED /* Pression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4DA0122CA28A70019D5ED /* Pression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,9 @@
 		D1F4D9F322CA15C80019D5ED /* Doubletests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doubletests.swift; sourceTree = "<group>"; };
 		D1F4D9F722CA17A30019D5ED /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		D1F4D9FA22CA18090019D5ED /* WeatherFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFixtures.swift; sourceTree = "<group>"; };
+		D1F4D9FC22CA281F0019D5ED /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		D1F4D9FF22CA285B0019D5ED /* Humidity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humidity.swift; sourceTree = "<group>"; };
+		D1F4DA0122CA28A70019D5ED /* Pression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pression.swift; sourceTree = "<group>"; };
 		FC19EC76C78CE5AA5853307C /* Pods_WeatherTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -172,7 +178,7 @@
 				D15E307122C92B9300170B69 /* WeatherAPI.swift */,
 				D1B9F8EE22C962FD000A8580 /* Storage */,
 				D1B9F8E922C94EFD000A8580 /* Extensions */,
-				D1B9F8E422C9387A000A8580 /* Model */,
+				D1B9F8E422C9387A000A8580 /* Models */,
 				D15E306C22C9197500170B69 /* Home */,
 				D1B9F8F122C9657C000A8580 /* Detail */,
 				D15E304522C9189A00170B69 /* Assets.xcassets */,
@@ -240,12 +246,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D1B9F8E422C9387A000A8580 /* Model */ = {
+		D1B9F8E422C9387A000A8580 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				D1B9F8E522C938AB000A8580 /* WeatherDate.swift */,
+				D1F4D9FC22CA281F0019D5ED /* Temperature.swift */,
+				D1F4D9FF22CA285B0019D5ED /* Humidity.swift */,
+				D1F4DA0122CA28A70019D5ED /* Pression.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D1B9F8E922C94EFD000A8580 /* Extensions */ = {
@@ -583,6 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F4DA0222CA28A70019D5ED /* Pression.swift in Sources */,
 				D1B9F8F422C965A7000A8580 /* DetailViewController.swift in Sources */,
 				D15E304122C9189900170B69 /* HomeViewController.swift in Sources */,
 				D1B9F8DB22C92E34000A8580 /* WeatherInfoViewModel.swift in Sources */,
@@ -593,11 +603,13 @@
 				D1B9F8FD22C96A91000A8580 /* DetailViewController+Delegate.swift in Sources */,
 				D15E303F22C9189900170B69 /* AppDelegate.swift in Sources */,
 				D15E307222C92B9300170B69 /* WeatherAPI.swift in Sources */,
+				D1F4DA0022CA285B0019D5ED /* Humidity.swift in Sources */,
 				D15E307022C919C800170B69 /* HomeViewController+Delegate.swift in Sources */,
 				D1B9F8F922C96839000A8580 /* DetailViewModel.swift in Sources */,
 				D1B9F8E622C938AB000A8580 /* WeatherDate.swift in Sources */,
 				D1B9F8ED22C959E9000A8580 /* WeatherStoreManager.swift in Sources */,
 				D1B9F8F022C96325000A8580 /* WeatherModel.swift in Sources */,
+				D1F4D9FD22CA28200019D5ED /* Temperature.swift in Sources */,
 				D15E306E22C919AB00170B69 /* HomeViewController+Datasource.swift in Sources */,
 				D1B9F90422C96E7E000A8580 /* Double.swift in Sources */,
 				D1B9F8FB22C96A44000A8580 /* DetailViewController+Datasource.swift in Sources */,
