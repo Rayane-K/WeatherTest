@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 enum State {
     case success
@@ -24,7 +25,14 @@ class HomeViewModel {
     
     var stateDidChange: ((State) -> Void)?
     
-    let api = WeatherAPI()
+    var api = WeatherAPI()
+    
+    var location: CLLocationCoordinate2D? {
+        didSet {
+            api.latitude = location?.latitude
+            api.longitude = location?.longitude
+        }
+    }
     
     func fetch() {
         api.fetchWeatherFromApi(completion: { response in

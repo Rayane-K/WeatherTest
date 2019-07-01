@@ -23,6 +23,5 @@ class WeatherDateTableViewCell: UITableViewCell {
         if let temperature = viewModel.weatherInfos.first?.weatherDate.temperature.twoMeters.kelvinToCelsius {
             self.temperatureLabel.text = "\(temperature)°C"
         }
-        
     }
 }
