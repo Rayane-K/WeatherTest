@@ -11,6 +11,7 @@ import Foundation
 extension Double {
     var kelvinToCelsius: Double {
         let absoluteZero = -273.15
-        return absoluteZero + self
+        let result = absoluteZero + self
+        return Double((10 * result).rounded()/10)
     }
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct WeatherDate : Codable {
+struct WeatherDate : Codable, Equatable {
     let temperature: Temperature
     let rain: Double
     let humidity: Humidity
@@ -53,7 +53,7 @@ struct WeatherDate : Codable {
     
 }
 
-struct Temperature: Codable {
+struct Temperature: Codable, Equatable {
     let twoMeters: Double
     let ground: Double
     
@@ -64,7 +64,7 @@ struct Temperature: Codable {
     }
 }
 
-struct Humidity: Codable {
+struct Humidity: Codable, Equatable {
     let twoMeters: Double
     
     enum CodingKeys: String, CodingKey {
@@ -72,7 +72,7 @@ struct Humidity: Codable {
     }
 }
 
-struct Pression: Codable {
+struct Pression: Codable, Equatable {
     let seaLevel: Double
     
     enum CodingKeys: String, CodingKey {

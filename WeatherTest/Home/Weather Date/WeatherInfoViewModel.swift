@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct WeatherInfoViewModel: Codable {
+struct WeatherInfoViewModel: Codable, Equatable {
     let date: Date
     let weatherDate: WeatherDate
 }

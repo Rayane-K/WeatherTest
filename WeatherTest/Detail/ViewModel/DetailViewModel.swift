@@ -10,6 +10,9 @@ import Foundation
 
 struct DetailViewModel {
     let weatherDay: WeatherDay
+    var titleLabel: String {
+        return DateFormatter.weatherTextFormatter.string(from: weatherDay.day)
+    }
     
     init(weatherDay: WeatherDay) {
         self.weatherDay = weatherDay
